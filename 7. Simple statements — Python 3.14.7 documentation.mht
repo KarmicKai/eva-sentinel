@@ -1,0 +1,2273 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-relative_module
+Subject: =?utf-8?Q?7.=20Simple=20statements=20=E2=80=94=20Python=203.14.7=20docume?=
+ =?utf-8?Q?ntation?=
+Date: Sun, 16 Aug 2026 19:50:12 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--qjklQEHlqzSOZBNWOQ7VmICdZF3eCoIB0liR22LW1c----"
+
+
+------MultipartBoundary--qjklQEHlqzSOZBNWOQ7VmICdZF3eCoIB0liR22LW1c----
+Content-Type: text/html
+Content-ID: <frame-9F54C75CE71BE1196DF1989D08217B60@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-relative_module
+
+<!DOCTYPE html><html lang="en" data-content_root="../"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-f06229dc-0e43-45d8-aa70-7e0e2c23b8a9@mhtml.blink" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="7. Simple statements">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://docs.python.org/3/reference/simple_stmts.html">
+<meta property="og:site_name" content="Python documentation">
+<meta property="og:description" content="A simple statement is comprised within a single logical line. Several simple statements may occur on a single line separated by semicolons. The syntax for simple statements is: Expression statement...">
+<meta property="og:image:width" content="1146">
+<meta property="og:image:height" content="600">
+<meta property="og:image" content="https://docs.python.org/3.14/_images/social_previews/summary_reference_simple_stmts_6f26308c.png">
+<meta property="og:image:alt" content="A simple statement is comprised within a single logical line. Several simple statements may occur on a single line separated by semicolons. The syntax for simple statements is: Expression statement...">
+<meta name="description" content="A simple statement is comprised within a single logical line. Several simple statements may occur on a single line separated by semicolons. The syntax for simple statements is: Expression statement...">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#3776ab">
+
+    <title>7. Simple statements — Python 3.14.7 documentation</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="https://docs.python.org/3/_static/pygments.css?v=b86133f3">
+    <link rel="stylesheet" type="text/css" href="https://docs.python.org/3/_static/classic.css?v=234b1a7c">
+    <link rel="stylesheet" type="text/css" href="https://docs.python.org/3/_static/pydoctheme.css?v=4365c8fe">
+    <link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="https://docs.python.org/3/_static/pygments_dark.css?v=5349f25f">
+    
+    
+    
+    
+    
+    
+    
+    <link rel="search" type="application/opensearchdescription+xml" title="Search within Python 3.14.7 documentation" href="https://docs.python.org/3/_static/opensearch.xml">
+    <link rel="author" title="About these documents" href="https://docs.python.org/3/about.html">
+    <link rel="index" title="Index" href="https://docs.python.org/3/genindex.html">
+    <link rel="search" title="Search" href="https://docs.python.org/3/search.html">
+    <link rel="copyright" title="Copyright" href="https://docs.python.org/3/copyright.html">
+    <link rel="next" title="8. Compound statements" href="https://docs.python.org/3/reference/compound_stmts.html">
+    <link rel="prev" title="6. Expressions" href="https://docs.python.org/3/reference/expressions.html">
+    
+      
+      
+      
+      <link rel="canonical" href="https://docs.python.org/3/reference/simple_stmts.html">
+      
+    
+
+    
+    
+<link rel="stylesheet" href="https://docs.python.org/3/_static/pydoctheme_dark.css" media="(prefers-color-scheme: dark)" id="pydoctheme_dark_css">
+    <link rel="shortcut icon" type="image/png" href="https://docs.python.org/3/_static/py.svg">
+            
+            
+            
+             
+            
+            <meta name="readthedocs-addons-api-version" content="1">
+
+  </head>
+<body>
+<div class="mobile-nav">
+    <input type="checkbox" id="menuToggler" class="toggler__input" aria-controls="navigation" aria-pressed="false" aria-expanded="false" role="button" aria-label="Menu">
+    <nav class="nav-content" role="navigation">
+        <label for="menuToggler" class="toggler__label">
+            <span></span>
+        </label>
+        <span class="nav-items-wrapper">
+            <a href="https://www.python.org/" class="nav-logo">
+                <img src="https://docs.python.org/3/_static/py.svg" alt="Python logo">
+            </a>
+            <span class="version_switcher_placeholder"><select class="version-select" aria-label="Python version"><option value="3.16">dev (3.16)</option><option value="3.15">pre (3.15)</option><option value="3.14">3.14.7</option><option value="3.13">3.13</option><option value="3.12">3.12</option><option value="3.11">3.11</option><option value="3.10">3.10</option><option value="3.9">3.9</option><option value="3.8">3.8</option><option value="3.7">3.7</option><option value="3.6">3.6</option><option value="3.5">3.5</option><option value="3.4">3.4</option><option value="3.3">3.3</option><option value="3.2">3.2</option><option value="3.1">3.1</option><option value="3.0">3.0</option><option value="2.7">2.7</option><option value="2.6">2.6</option></select></span>
+            <form role="search" class="search" action="https://docs.python.org/3/search.html" method="get">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" class="search-icon">
+                    <path fill-rule="nonzero" fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 001.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 00-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 005.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                </svg>
+                <input placeholder="Quick search" aria-label="Quick search" type="search" name="q">
+                <input type="submit" value="Go">
+            </form>
+        </span>
+    </nav>
+    <div class="menu-wrapper">
+        <nav class="menu" role="navigation" aria-label="main navigation" tabindex="-1">
+            <div class="language_switcher_placeholder"><select class="language-select" aria-label="Language"><option value="el">Greek | Ελληνικά</option><option value="en">English</option><option value="es">Spanish | español</option><option value="fr">French | français</option><option value="it">Italian | italiano</option><option value="ja">Japanese | 日本語</option><option value="ko">Korean | 한국어</option><option value="pl">Polish | polski</option><option value="pt-br">Brazilian Portuguese | Português brasileiro</option><option value="ro">Romanian | Românește</option><option value="tr">Turkish | Türkçe</option><option value="zh-cn">Simplified Chinese | 简体中文</option><option value="zh-tw">Traditional Chinese | 繁體中文</option></select></div>
+            
+<label class="theme-selector-label">
+    Theme
+    <select class="theme-selector">
+        <option value="auto" selected="">Auto</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+</label>
+  <div>
+    <h3><a href="https://docs.python.org/3/contents.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#">7. Simple statements</a><ul>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#expression-statements">7.1. Expression statements</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#assignment-statements">7.2. Assignment statements</a><ul>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#augmented-assignment-statements">7.2.1. Augmented assignment statements</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#annotated-assignment-statements">7.2.2. Annotated assignment statements</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement">7.3. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">assert</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-pass-statement">7.4. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">pass</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-del-statement">7.5. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">del</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-return-statement">7.6. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">return</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-yield-statement">7.7. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">yield</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-raise-statement">7.8. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">raise</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-break-statement">7.9. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">break</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-continue-statement">7.10. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">continue</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-import-statement">7.11. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">import</span></code> statement</a><ul>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#future-statements">7.11.1. Future statements</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-global-statement">7.12. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-nonlocal-statement">7.13. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">nonlocal</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-type-statement">7.14. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">type</span></code> statement</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="https://docs.python.org/3/reference/expressions.html" title="previous chapter"><span class="section-number">6. </span>Expressions</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="https://docs.python.org/3/reference/compound_stmts.html" title="next chapter"><span class="section-number">8. </span>Compound statements</a></p>
+  </div>
+  
+  <div role="note" aria-label="source link">
+    <h3>This page</h3>
+    <ul class="this-page-menu">
+      <li><a href="https://docs.python.org/3/bugs.html">Report a bug</a></li>
+      <li><a class="improvepage" href="https://docs.python.org/3/improve-page.html?pagetitle=7.+Simple+statements&amp;pageurl=https%3A%2F%2Fdocs.python.org%2F3%2Freference%2Fsimple_stmts.html%23grammar-token-python-grammar-relative_module&amp;pagesource=reference%2Fsimple_stmts.rst">Improve this page</a></li>
+      <li>
+        <a href="https://github.com/python/cpython/blob/main/Doc/reference/simple_stmts.rst?plain=1" rel="nofollow">Show source
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+        </nav>
+    </div>
+</div>
+
+  
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://docs.python.org/3/genindex.html" title="General Index" accesskey="I">index</a></li>
+        <li class="right">
+          <a href="https://docs.python.org/3/py-modindex.html" title="Python Module Index">modules</a> |</li>
+        <li class="right">
+          <a href="https://docs.python.org/3/reference/compound_stmts.html" title="8. Compound statements" accesskey="N">next</a> |</li>
+        <li class="right">
+          <a href="https://docs.python.org/3/reference/expressions.html" title="6. Expressions" accesskey="P">previous</a> |</li>
+
+          <li><img src="https://docs.python.org/3/_static/py.svg" alt="Python logo" style="vertical-align: middle; margin-top: -1px"></li>
+          <li><a href="https://www.python.org/">Python</a> »</li>
+          <li class="switchers">
+            <div class="language_switcher_placeholder"><select class="language-select" aria-label="Language"><option value="el">Greek | Ελληνικά</option><option value="en">English</option><option value="es">Spanish | español</option><option value="fr">French | français</option><option value="it">Italian | italiano</option><option value="ja">Japanese | 日本語</option><option value="ko">Korean | 한국어</option><option value="pl">Polish | polski</option><option value="pt-br">Brazilian Portuguese | Português brasileiro</option><option value="ro">Romanian | Românește</option><option value="tr">Turkish | Türkçe</option><option value="zh-cn">Simplified Chinese | 简体中文</option><option value="zh-tw">Traditional Chinese | 繁體中文</option></select></div>
+            <div class="version_switcher_placeholder"><select class="version-select" aria-label="Python version"><option value="3.16">dev (3.16)</option><option value="3.15">pre (3.15)</option><option value="3.14">3.14.7</option><option value="3.13">3.13</option><option value="3.12">3.12</option><option value="3.11">3.11</option><option value="3.10">3.10</option><option value="3.9">3.9</option><option value="3.8">3.8</option><option value="3.7">3.7</option><option value="3.6">3.6</option><option value="3.5">3.5</option><option value="3.4">3.4</option><option value="3.3">3.3</option><option value="3.2">3.2</option><option value="3.1">3.1</option><option value="3.0">3.0</option><option value="2.7">2.7</option><option value="2.6">2.6</option></select></div>
+          </li>
+          <li>
+              
+          </li>
+    <li id="cpython-language-and-version">
+      <a href="https://docs.python.org/3/index.html">3.14.7 Documentation</a> »
+    </li>
+
+          <li class="nav-item nav-item-1"><a href="https://docs.python.org/3/reference/index.html" accesskey="U">The Python Language Reference</a> »</li>
+        <li class="nav-item nav-item-this"><a href="https://docs.python.org/3/reference/simple_stmts.html"><span class="section-number">7. </span>Simple statements</a></li>
+                <li class="right">
+                    
+
+    <div class="inline-search" role="search">
+        <form class="inline-search" action="https://docs.python.org/3/search.html" method="get">
+          <input placeholder="Quick search" aria-label="Quick search" type="search" name="q" id="search-box">
+          <input type="submit" value="Go">
+        </form>
+    </div>
+                     |
+                </li>
+            <li class="right">
+<label class="theme-selector-label">
+    Theme
+    <select class="theme-selector">
+        <option value="auto" selected="">Auto</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+</label> |</li>
+            
+      </ul>
+    </div>    
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="simple-statements">
+<span id="simple"></span><h1><span class="section-number">7. </span>Simple statements<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#simple-statements" title="Link to this heading">¶</a></h1>
+<p id="index-0">A simple statement is comprised within a single logical line. Several simple
+statements may occur on a single line separated by semicolons.  The syntax for
+simple statements is:</p>
+<pre class="highlight"><strong id="grammar-token-python-grammar-simple_stmt">simple_stmt</strong>: <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-expression_stmt"><code class="xref docutils literal notranslate"><span class="pre">expression_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-assert_stmt"><code class="xref docutils literal notranslate"><span class="pre">assert_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-assignment_stmt"><code class="xref docutils literal notranslate"><span class="pre">assignment_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-augmented_assignment_stmt"><code class="xref docutils literal notranslate"><span class="pre">augmented_assignment_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-annotated_assignment_stmt"><code class="xref docutils literal notranslate"><span class="pre">annotated_assignment_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-pass_stmt"><code class="xref docutils literal notranslate"><span class="pre">pass_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-del_stmt"><code class="xref docutils literal notranslate"><span class="pre">del_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-return_stmt"><code class="xref docutils literal notranslate"><span class="pre">return_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-yield_stmt"><code class="xref docutils literal notranslate"><span class="pre">yield_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-raise_stmt"><code class="xref docutils literal notranslate"><span class="pre">raise_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-break_stmt"><code class="xref docutils literal notranslate"><span class="pre">break_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-continue_stmt"><code class="xref docutils literal notranslate"><span class="pre">continue_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-import_stmt"><code class="xref docutils literal notranslate"><span class="pre">import_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-future_stmt"><code class="xref docutils literal notranslate"><span class="pre">future_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-global_stmt"><code class="xref docutils literal notranslate"><span class="pre">global_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-nonlocal_stmt"><code class="xref docutils literal notranslate"><span class="pre">nonlocal_stmt</span></code></a>
+             | <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-type_stmt"><code class="xref docutils literal notranslate"><span class="pre">type_stmt</span></code></a>
+</pre>
+<section id="expression-statements">
+<span id="exprstmts"></span><h2><span class="section-number">7.1. </span>Expression statements<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#expression-statements" title="Link to this heading">¶</a></h2>
+<p id="index-2"><span id="index-1"></span>Expression statements are used (mostly interactively) to compute and write a
+value, or (usually) to call a procedure (a function that returns no meaningful
+result; in Python, procedures return the value <code class="docutils literal notranslate"><span class="pre">None</span></code>).  Other uses of
+expression statements are allowed and occasionally useful.  The syntax for an
+expression statement is:</p>
+<pre class="highlight"><strong id="grammar-token-python-grammar-expression_stmt">expression_stmt</strong>: <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-starred_expression"><code class="xref docutils literal notranslate"><span class="pre">starred_expression</span></code></a>
+</pre>
+<p>An expression statement evaluates the expression list (which may be a single
+expression).</p>
+<p id="index-3">In interactive mode, if the value is not <code class="docutils literal notranslate"><span class="pre">None</span></code>, it is converted to a string
+using the built-in <a class="reference internal" href="https://docs.python.org/3/library/functions.html#repr" title="repr"><code class="xref py py-func docutils literal notranslate"><span class="pre">repr()</span></code></a> function and the resulting string is written to
+standard output on a line by itself (except if the result is <code class="docutils literal notranslate"><span class="pre">None</span></code>, so that
+procedure calls do not cause any output.)</p>
+</section>
+<section id="assignment-statements">
+<span id="assignment"></span><h2><span class="section-number">7.2. </span>Assignment statements<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#assignment-statements" title="Link to this heading">¶</a></h2>
+<p id="index-4">Assignment statements are used to (re)bind names to values and to modify
+attributes or items of mutable objects:</p>
+<pre class="highlight"><strong id="grammar-token-python-grammar-assignment_stmt">assignment_stmt</strong>: (<a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-target_list"><code class="xref docutils literal notranslate"><span class="pre">target_list</span></code></a> <span class="sx">"="</span>)+ (<a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-starred_expression"><code class="xref docutils literal notranslate"><span class="pre">starred_expression</span></code></a> | <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-yield_expression"><code class="xref docutils literal notranslate"><span class="pre">yield_expression</span></code></a>)
+<strong id="grammar-token-python-grammar-target_list">target_list</strong>:     <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-target"><code class="xref docutils literal notranslate"><span class="pre">target</span></code></a> (<span class="sx">","</span> <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-target"><code class="xref docutils literal notranslate"><span class="pre">target</span></code></a>)* [<span class="sx">","</span>]
+<strong id="grammar-token-python-grammar-target">target</strong>:          <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a>
+                 | <span class="sx">"("</span> [<a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-target_list"><code class="xref docutils literal notranslate"><span class="pre">target_list</span></code></a>] <span class="sx">")"</span>
+                 | <span class="sx">"["</span> [<a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-target_list"><code class="xref docutils literal notranslate"><span class="pre">target_list</span></code></a>] <span class="sx">"]"</span>
+                 | <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-attributeref"><code class="xref docutils literal notranslate"><span class="pre">attributeref</span></code></a>
+                 | <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-subscription"><code class="xref docutils literal notranslate"><span class="pre">subscription</span></code></a>
+                 | <span class="sx">"*"</span> <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-target"><code class="xref docutils literal notranslate"><span class="pre">target</span></code></a>
+</pre>
+<p>(See section <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#primaries"><span class="std std-ref">Primaries</span></a> for the syntax definitions for <em>attributeref</em>
+and <em>subscription</em>.)</p>
+<p>An assignment statement evaluates the expression list (remember that this can be
+a single expression or a comma-separated list, the latter yielding a tuple) and
+assigns the single resulting object to each of the target lists, from left to
+right.</p>
+<p id="index-5">Assignment is defined recursively depending on the form of the target (list).
+When a target is part of a mutable object (an attribute reference or
+subscription), the mutable object must ultimately perform the assignment and
+decide about its validity, and may raise an exception if the assignment is
+unacceptable.  The rules observed by various types and the exceptions raised are
+given with the definition of the object types (see section <a class="reference internal" href="https://docs.python.org/3/reference/datamodel.html#types"><span class="std std-ref">The standard type hierarchy</span></a>).</p>
+<p id="index-6">Assignment of an object to a target list, optionally enclosed in parentheses or
+square brackets, is recursively defined as follows.</p>
+<ul class="simple">
+<li><p>If the target list is a single target with no trailing comma,
+optionally in parentheses, the object is assigned to that target.</p></li>
+<li><p>Else:</p>
+<ul>
+<li><p>If the target list contains one target prefixed with an asterisk, called a
+“starred” target: The object must be an iterable with at least as many items
+as there are targets in the target list, minus one.  The first items of the
+iterable are assigned, from left to right, to the targets before the starred
+target.  The final items of the iterable are assigned to the targets after
+the starred target.  A list of the remaining items in the iterable is then
+assigned to the starred target (the list can be empty).</p></li>
+<li><p>Else: The object must be an iterable with the same number of items as there
+are targets in the target list, and the items are assigned, from left to
+right, to the corresponding targets.</p></li>
+</ul>
+</li>
+</ul>
+<p>Assignment of an object to a single target is recursively defined as follows.</p>
+<ul>
+<li><p>If the target is an identifier (name):</p>
+<ul class="simple">
+<li><p>If the name does not occur in a <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#global"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code></a> or <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#nonlocal"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">nonlocal</span></code></a>
+statement in the current code block: the name is bound to the object in the
+current local namespace.</p></li>
+<li><p>Otherwise: the name is bound to the object in the global namespace or the
+outer namespace determined by <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#nonlocal"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">nonlocal</span></code></a>, respectively.</p></li>
+</ul>
+<p id="index-7">The name is rebound if it was already bound.  This may cause the reference
+count for the object previously bound to the name to reach zero, causing the
+object to be deallocated and its destructor (if it has one) to be called.</p>
+</li>
+<li id="index-8"><p>If the target is an attribute reference: The primary expression in the
+reference is evaluated.  It should yield an object with assignable attributes;
+if this is not the case, <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#TypeError" title="TypeError"><code class="xref py py-exc docutils literal notranslate"><span class="pre">TypeError</span></code></a> is raised.  That object is then
+asked to assign the assigned object to the given attribute; if it cannot
+perform the assignment, it raises an exception (usually but not necessarily
+<a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#AttributeError" title="AttributeError"><code class="xref py py-exc docutils literal notranslate"><span class="pre">AttributeError</span></code></a>).</p>
+<p id="attr-target-note">Note: If the object is a class instance and the attribute reference occurs on
+both sides of the assignment operator, the right-hand side expression, <code class="docutils literal notranslate"><span class="pre">a.x</span></code> can access
+either an instance attribute or (if no instance attribute exists) a class
+attribute.  The left-hand side target <code class="docutils literal notranslate"><span class="pre">a.x</span></code> is always set as an instance attribute,
+creating it if necessary.  Thus, the two occurrences of <code class="docutils literal notranslate"><span class="pre">a.x</span></code> do not
+necessarily refer to the same attribute: if the right-hand side expression refers to a
+class attribute, the left-hand side creates a new instance attribute as the target of the
+assignment:</p>
+<div class="highlight-python3 notranslate"><div class="highlight" style="position: relative;"><button class="copybutton" type="button" title="Copy to clipboard">Copy</button><pre><span></span><span class="k">class</span><span class="w"> </span><span class="nc">Cls</span><span class="p">:</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="mi">3</span>             <span class="c1"># class variable</span>
+<span class="n">inst</span> <span class="o">=</span> <span class="n">Cls</span><span class="p">()</span>
+<span class="n">inst</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">inst</span><span class="o">.</span><span class="n">x</span> <span class="o">+</span> <span class="mi">1</span>   <span class="c1"># writes inst.x as 4 leaving Cls.x as 3</span>
+</pre></div>
+</div>
+<p>This description does not necessarily apply to descriptor attributes, such as
+properties created with <a class="reference internal" href="https://docs.python.org/3/library/functions.html#property" title="property"><code class="xref py py-deco docutils literal notranslate"><span class="pre">@property</span></code></a>.</p>
+</li>
+<li id="index-9"><p>If the target is a subscription: The primary expression in the reference is
+evaluated.
+Next, the subscript expression is evaluated.
+Then, the primary’s <a class="reference internal" href="https://docs.python.org/3/reference/datamodel.html#object.__setitem__" title="object.__setitem__"><code class="xref py py-meth docutils literal notranslate"><span class="pre">__setitem__()</span></code></a> method is called with
+two arguments: the subscript and the assigned object.</p>
+<p>Typically, <a class="reference internal" href="https://docs.python.org/3/reference/datamodel.html#object.__setitem__" title="object.__setitem__"><code class="xref py py-meth docutils literal notranslate"><span class="pre">__setitem__()</span></code></a> is defined on mutable sequence objects
+(such as lists) and mapping objects (such as dictionaries), and behaves as
+follows.</p>
+<p id="index-10">If the primary is a mutable sequence object (such as a list), the subscript
+must yield an integer.  If it is negative, the sequence’s length is added to
+it.  The resulting value must be a nonnegative integer less than the
+sequence’s length, and the sequence is asked to assign the assigned object to
+its item with that index.  If the index is out of range, <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#IndexError" title="IndexError"><code class="xref py py-exc docutils literal notranslate"><span class="pre">IndexError</span></code></a> is
+raised (assignment to a subscripted sequence cannot add new items to a list).</p>
+<p id="index-11">If the primary is a mapping object (such as a dictionary), the subscript must
+have a type compatible with the mapping’s key type, and the mapping is then
+asked to create a key/value pair which maps the subscript to the assigned
+object.  This can either replace an existing key/value pair with the same key
+value, or insert a new key/value pair (if no key with the same value existed).</p>
+<p id="index-12">If the target is a slicing: The primary expression should evaluate to
+a mutable sequence object (such as a list).
+The assigned object should be <a class="reference internal" href="https://docs.python.org/3/glossary.html#term-iterable"><span class="xref std std-term">iterable</span></a>.
+The slicing’s lower and upper bounds should be integers; if they are <code class="docutils literal notranslate"><span class="pre">None</span></code>
+(or not present), the defaults are zero and the sequence’s length.
+If either bound is negative, the sequence’s length is added to it.  The
+resulting bounds are clipped to lie between zero and the sequence’s length,
+inclusive.  Finally, the sequence object is asked to replace the slice with
+the items of the assigned sequence.  The length of the slice may be different
+from the length of the assigned sequence, thus changing the length of the
+target sequence, if the target sequence allows it.</p>
+</li>
+</ul>
+<p>Although the definition of assignment implies that overlaps between the
+left-hand side and the right-hand side are ‘simultaneous’ (for example <code class="docutils literal notranslate"><span class="pre">a,</span> <span class="pre">b</span> <span class="pre">=</span>
+<span class="pre">b,</span> <span class="pre">a</span></code> swaps two variables), overlaps <em>within</em> the collection of assigned-to
+variables occur left-to-right, sometimes resulting in confusion.  For instance,
+the following program prints <code class="docutils literal notranslate"><span class="pre">[0,</span> <span class="pre">2]</span></code>:</p>
+<div class="highlight-python3 notranslate"><div class="highlight" style="position: relative;"><button class="copybutton" type="button" title="Copy to clipboard">Copy</button><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+<span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">i</span><span class="p">,</span> <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span>         <span class="c1"># i is updated, then x[i] is updated</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<dl class="simple">
+<dt><span class="target" id="index-13"></span><a class="pep reference external" href="https://peps.python.org/pep-3132/"><strong>PEP 3132</strong></a> - Extended Iterable Unpacking</dt><dd><p>The specification for the <code class="docutils literal notranslate"><span class="pre">*target</span></code> feature.</p>
+</dd>
+</dl>
+</div>
+<section id="augmented-assignment-statements">
+<span id="augassign"></span><h3><span class="section-number">7.2.1. </span>Augmented assignment statements<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#augmented-assignment-statements" title="Link to this heading">¶</a></h3>
+<p id="index-14">Augmented assignment is the combination, in a single statement, of a binary
+operation and an assignment statement:</p>
+<pre class="highlight"><strong id="grammar-token-python-grammar-augmented_assignment_stmt">augmented_assignment_stmt</strong>: <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-augtarget"><code class="xref docutils literal notranslate"><span class="pre">augtarget</span></code></a> <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-augop"><code class="xref docutils literal notranslate"><span class="pre">augop</span></code></a> (<a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-expression_list"><code class="xref docutils literal notranslate"><span class="pre">expression_list</span></code></a> | <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-yield_expression"><code class="xref docutils literal notranslate"><span class="pre">yield_expression</span></code></a>)
+<strong id="grammar-token-python-grammar-augtarget">augtarget</strong>:                 <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a> | <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-attributeref"><code class="xref docutils literal notranslate"><span class="pre">attributeref</span></code></a> | <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-subscription"><code class="xref docutils literal notranslate"><span class="pre">subscription</span></code></a>
+<strong id="grammar-token-python-grammar-augop">augop</strong>:                     <span class="sx">"+="</span> | <span class="sx">"-="</span> | <span class="sx">"*="</span> | <span class="sx">"@="</span> | <span class="sx">"/="</span> | <span class="sx">"//="</span> | <span class="sx">"%="</span> | <span class="sx">"**="</span>
+                           | <span class="sx">"&gt;&gt;="</span> | <span class="sx">"&lt;&lt;="</span> | <span class="sx">"&amp;="</span> | <span class="sx">"^="</span> | <span class="sx">"|="</span>
+</pre>
+<p>(See section <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#primaries"><span class="std std-ref">Primaries</span></a> for the syntax definitions of the last three
+symbols.)</p>
+<p>An augmented assignment evaluates the target (which, unlike normal assignment
+statements, cannot be an unpacking) and the expression list, performs the binary
+operation specific to the type of assignment on the two operands, and assigns
+the result to the original target.  The target is only evaluated once.</p>
+<p>An augmented assignment statement like <code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">+=</span> <span class="pre">1</span></code> can be rewritten as <code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">x</span> <span class="pre">+</span>
+<span class="pre">1</span></code> to achieve a similar, but not exactly equal effect. In the augmented
+version, <code class="docutils literal notranslate"><span class="pre">x</span></code> is only evaluated once. Also, when possible, the actual operation
+is performed <em>in-place</em>, meaning that rather than creating a new object and
+assigning that to the target, the old object is modified instead.</p>
+<p>Unlike normal assignments, augmented assignments evaluate the left-hand side
+<em>before</em> evaluating the right-hand side.  For example, <code class="docutils literal notranslate"><span class="pre">a[i]</span> <span class="pre">+=</span> <span class="pre">f(x)</span></code> first
+looks-up <code class="docutils literal notranslate"><span class="pre">a[i]</span></code>, then it evaluates <code class="docutils literal notranslate"><span class="pre">f(x)</span></code> and performs the addition, and
+lastly, it writes the result back to <code class="docutils literal notranslate"><span class="pre">a[i]</span></code>.</p>
+<p>With the exception of assigning to tuples and multiple targets in a single
+statement, the assignment done by augmented assignment statements is handled the
+same way as normal assignments. Similarly, with the exception of the possible
+<em>in-place</em> behavior, the binary operation performed by augmented assignment is
+the same as the normal binary operations.</p>
+<p>For targets which are attribute references, the same <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#attr-target-note"><span class="std std-ref">caveat about class
+and instance attributes</span></a> applies as for regular assignments.</p>
+</section>
+<section id="annotated-assignment-statements">
+<span id="annassign"></span><h3><span class="section-number">7.2.2. </span>Annotated assignment statements<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#annotated-assignment-statements" title="Link to this heading">¶</a></h3>
+<p id="index-15"><a class="reference internal" href="https://docs.python.org/3/glossary.html#term-variable-annotation"><span class="xref std std-term">Annotation</span></a> assignment is the combination, in a single
+statement, of a variable or attribute annotation and an optional assignment statement:</p>
+<pre class="highlight"><strong id="grammar-token-python-grammar-annotated_assignment_stmt">annotated_assignment_stmt</strong>: <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-augtarget"><code class="xref docutils literal notranslate"><span class="pre">augtarget</span></code></a> <span class="sx">":"</span> <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-expression"><code class="xref docutils literal notranslate"><span class="pre">expression</span></code></a>
+                           [<span class="sx">"="</span> (<a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-starred_expression"><code class="xref docutils literal notranslate"><span class="pre">starred_expression</span></code></a> | <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-yield_expression"><code class="xref docutils literal notranslate"><span class="pre">yield_expression</span></code></a>)]
+</pre>
+<p>The difference from normal <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#assignment"><span class="std std-ref">Assignment statements</span></a> is that only a single target is allowed.</p>
+<p>The assignment target is considered “simple” if it consists of a single
+name that is not enclosed in parentheses.
+For simple assignment targets, if in class or module scope,
+the annotations are gathered in a lazily evaluated
+<a class="reference internal" href="https://docs.python.org/3/reference/executionmodel.html#annotation-scopes"><span class="std std-ref">annotation scope</span></a>. The annotations can be
+evaluated using the <a class="reference internal" href="https://docs.python.org/3/reference/datamodel.html#object.__annotations__" title="object.__annotations__"><code class="xref py py-attr docutils literal notranslate"><span class="pre">__annotations__</span></code></a> attribute of a
+class or module, or using the facilities in the <a class="reference internal" href="https://docs.python.org/3/library/annotationlib.html#module-annotationlib" title="annotationlib: Functionality for introspecting annotations"><code class="xref py py-mod docutils literal notranslate"><span class="pre">annotationlib</span></code></a>
+module.</p>
+<p>If the assignment target is not simple (an attribute, subscript node, or
+parenthesized name), the annotation is never evaluated.</p>
+<p>If a name is annotated in a function scope, then this name is local for
+that scope. Annotations are never evaluated and stored in function scopes.</p>
+<p>If the right hand side is present, an annotated
+assignment performs the actual assignment as if there was no annotation
+present. If the right hand side is not present for an expression
+target, then the interpreter evaluates the target except for the last
+<a class="reference internal" href="https://docs.python.org/3/reference/datamodel.html#object.__setitem__" title="object.__setitem__"><code class="xref py py-meth docutils literal notranslate"><span class="pre">__setitem__()</span></code></a> or <a class="reference internal" href="https://docs.python.org/3/reference/datamodel.html#object.__setattr__" title="object.__setattr__"><code class="xref py py-meth docutils literal notranslate"><span class="pre">__setattr__()</span></code></a> call.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<dl class="simple">
+<dt><span class="target" id="index-16"></span><a class="pep reference external" href="https://peps.python.org/pep-0526/"><strong>PEP 526</strong></a> - Syntax for Variable Annotations</dt><dd><p>The proposal that added syntax for annotating the types of variables
+(including class variables and instance variables), instead of expressing
+them through comments.</p>
+</dd>
+<dt><span class="target" id="index-17"></span><a class="pep reference external" href="https://peps.python.org/pep-0484/"><strong>PEP 484</strong></a> - Type hints</dt><dd><p>The proposal that added the <a class="reference internal" href="https://docs.python.org/3/library/typing.html#module-typing" title="typing: Support for type hints (see :pep:`484`)."><code class="xref py py-mod docutils literal notranslate"><span class="pre">typing</span></code></a> module to provide a standard
+syntax for type annotations that can be used in static analysis tools and
+IDEs.</p>
+</dd>
+</dl>
+</div>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 3.8: </span>Now annotated assignments allow the same expressions in the right hand side as
+regular assignments. Previously, some expressions (like un-parenthesized
+tuple expressions) caused a syntax error.</p>
+</div>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 3.14: </span>Annotations are now lazily evaluated in a separate <a class="reference internal" href="https://docs.python.org/3/reference/executionmodel.html#annotation-scopes"><span class="std std-ref">annotation scope</span></a>.
+If the assignment target is not simple, annotations are never evaluated.</p>
+</div>
+</section>
+</section>
+<section id="the-assert-statement">
+<span id="assert"></span><h2><span class="section-number">7.3. </span>The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">assert</span></code> statement<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement" title="Link to this heading">¶</a></h2>
+<p id="index-18">Assert statements are a convenient way to insert debugging assertions into a
+program:</p>
+<pre class="highlight"><strong id="grammar-token-python-grammar-assert_stmt">assert_stmt</strong>: <span class="sx">"assert"</span> <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-expression"><code class="xref docutils literal notranslate"><span class="pre">expression</span></code></a> [<span class="sx">","</span> <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-expression"><code class="xref docutils literal notranslate"><span class="pre">expression</span></code></a>]
+</pre>
+<p>The simple form, <code class="docutils literal notranslate"><span class="pre">assert</span> <span class="pre">expression</span></code>, is equivalent to</p>
+<div class="highlight-python3 notranslate"><div class="highlight" style="position: relative;"><button class="copybutton" type="button" title="Copy to clipboard">Copy</button><pre><span></span><span class="k">if</span> <span class="n">__debug__</span><span class="p">:</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">expression</span><span class="p">:</span> <span class="k">raise</span> <span class="ne">AssertionError</span>
+</pre></div>
+</div>
+<p>The extended form, <code class="docutils literal notranslate"><span class="pre">assert</span> <span class="pre">expression1,</span> <span class="pre">expression2</span></code>, is equivalent to</p>
+<div class="highlight-python3 notranslate"><div class="highlight" style="position: relative;"><button class="copybutton" type="button" title="Copy to clipboard">Copy</button><pre><span></span><span class="k">if</span> <span class="n">__debug__</span><span class="p">:</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">expression1</span><span class="p">:</span> <span class="k">raise</span> <span class="ne">AssertionError</span><span class="p">(</span><span class="n">expression2</span><span class="p">)</span>
+</pre></div>
+</div>
+<p id="index-19">These equivalences assume that <a class="reference internal" href="https://docs.python.org/3/library/constants.html#debug__" title="__debug__"><code class="xref py py-const docutils literal notranslate"><span class="pre">__debug__</span></code></a> and <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#AssertionError" title="AssertionError"><code class="xref py py-exc docutils literal notranslate"><span class="pre">AssertionError</span></code></a> refer to
+the built-in variables with those names.  In the current implementation, the
+built-in variable <code class="docutils literal notranslate"><span class="pre">__debug__</span></code> is <code class="docutils literal notranslate"><span class="pre">True</span></code> under normal circumstances,
+<code class="docutils literal notranslate"><span class="pre">False</span></code> when optimization is requested (command line option <a class="reference internal" href="https://docs.python.org/3/using/cmdline.html#cmdoption-O"><code class="xref std std-option docutils literal notranslate"><span class="pre">-O</span></code></a>).  The current
+code generator emits no code for an <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#assert"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">assert</span></code></a> statement when optimization is
+requested at compile time.  Note that it is unnecessary to include the source
+code for the expression that failed in the error message; it will be displayed
+as part of the stack trace.</p>
+<p>Assignments to <a class="reference internal" href="https://docs.python.org/3/library/constants.html#debug__" title="__debug__"><code class="xref py py-const docutils literal notranslate"><span class="pre">__debug__</span></code></a> are illegal.  The value for the built-in variable
+is determined when the interpreter starts.</p>
+</section>
+<section id="the-pass-statement">
+<span id="pass"></span><h2><span class="section-number">7.4. </span>The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">pass</span></code> statement<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#the-pass-statement" title="Link to this heading">¶</a></h2>
+<pre class="highlight" id="index-20"><strong id="grammar-token-python-grammar-pass_stmt">pass_stmt</strong>: <span class="sx">"pass"</span>
+</pre>
+<p><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#pass"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">pass</span></code></a> is a null operation — when it is executed, nothing happens.
+It is useful as a placeholder when a statement is required syntactically, but no
+code needs to be executed, for example:</p>
+<div class="highlight-python3 notranslate"><div class="highlight" style="position: relative;"><button class="copybutton" type="button" title="Copy to clipboard">Copy</button><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">f</span><span class="p">(</span><span class="n">arg</span><span class="p">):</span> <span class="k">pass</span>    <span class="c1"># a function that does nothing (yet)</span>
+
+<span class="k">class</span><span class="w"> </span><span class="nc">C</span><span class="p">:</span> <span class="k">pass</span>       <span class="c1"># a class with no methods (yet)</span>
+</pre></div>
+</div>
+</section>
+<section id="the-del-statement">
+<span id="del"></span><h2><span class="section-number">7.5. </span>The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">del</span></code> statement<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#the-del-statement" title="Link to this heading">¶</a></h2>
+<pre class="highlight" id="index-21"><strong id="grammar-token-python-grammar-del_stmt">del_stmt</strong>: <span class="sx">"del"</span> <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-target_list"><code class="xref docutils literal notranslate"><span class="pre">target_list</span></code></a>
+</pre>
+<p>Deletion is recursively defined very similar to the way assignment is defined.
+Rather than spelling it out in full details, here are some hints.</p>
+<p>Deletion of a target list recursively deletes each target, from left to right.</p>
+<p id="index-22">Deletion of a name removes the binding of that name from the local or global
+namespace, depending on whether the name occurs in a <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#global"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code></a> statement
+in the same code block.  Trying to delete an unbound name raises a
+<a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#NameError" title="NameError"><code class="xref py py-exc docutils literal notranslate"><span class="pre">NameError</span></code></a> exception.</p>
+<p id="index-23">Deletion of attribute references and subscriptions is passed to the
+primary object involved; deletion of a slicing is in general equivalent to
+assignment of an empty slice of the right type (but even this is determined by
+the sliced object).</p>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 3.2: </span>Previously it was illegal to delete a name from the local namespace if it
+occurs as a free variable in a nested block.</p>
+</div>
+</section>
+<section id="the-return-statement">
+<span id="return"></span><h2><span class="section-number">7.6. </span>The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">return</span></code> statement<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#the-return-statement" title="Link to this heading">¶</a></h2>
+<pre class="highlight" id="index-24"><strong id="grammar-token-python-grammar-return_stmt">return_stmt</strong>: <span class="sx">"return"</span> [<a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-expression_list"><code class="xref docutils literal notranslate"><span class="pre">expression_list</span></code></a>]
+</pre>
+<p><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#return"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">return</span></code></a> may only occur syntactically nested in a function definition,
+not within a nested class definition.</p>
+<p>If an expression list is present, it is evaluated, else <code class="docutils literal notranslate"><span class="pre">None</span></code> is substituted.</p>
+<p><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#return"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">return</span></code></a> leaves the current function call with the expression list (or
+<code class="docutils literal notranslate"><span class="pre">None</span></code>) as return value.</p>
+<p id="index-25">When <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#return"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">return</span></code></a> passes control out of a <a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#try"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">try</span></code></a> statement with a
+<a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#finally"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">finally</span></code></a> clause, that <code class="xref std std-keyword docutils literal notranslate"><span class="pre">finally</span></code> clause is executed before
+really leaving the function.</p>
+<p>In a generator function, the <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#return"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">return</span></code></a> statement indicates that the
+generator is done and will cause <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#StopIteration" title="StopIteration"><code class="xref py py-exc docutils literal notranslate"><span class="pre">StopIteration</span></code></a> to be raised. The returned
+value (if any) is used as an argument to construct <code class="xref py py-exc docutils literal notranslate"><span class="pre">StopIteration</span></code> and
+becomes the <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#StopIteration.value" title="StopIteration.value"><code class="xref py py-attr docutils literal notranslate"><span class="pre">StopIteration.value</span></code></a> attribute.</p>
+<p>In an asynchronous generator function, an empty <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#return"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">return</span></code></a> statement
+indicates that the asynchronous generator is done and will cause
+<a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#StopAsyncIteration" title="StopAsyncIteration"><code class="xref py py-exc docutils literal notranslate"><span class="pre">StopAsyncIteration</span></code></a> to be raised.  A non-empty <code class="xref std std-keyword docutils literal notranslate"><span class="pre">return</span></code>
+statement is a syntax error in an asynchronous generator function.</p>
+</section>
+<section id="the-yield-statement">
+<span id="yield"></span><h2><span class="section-number">7.7. </span>The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">yield</span></code> statement<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#the-yield-statement" title="Link to this heading">¶</a></h2>
+<pre class="highlight" id="index-26"><strong id="grammar-token-python-grammar-yield_stmt">yield_stmt</strong>: <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-yield_expression"><code class="xref docutils literal notranslate"><span class="pre">yield_expression</span></code></a>
+</pre>
+<p>A <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#yield"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">yield</span></code></a> statement is semantically equivalent to a <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#yieldexpr"><span class="std std-ref">yield
+expression</span></a>. The <code class="docutils literal notranslate"><span class="pre">yield</span></code> statement can be used to omit the
+parentheses that would otherwise be required in the equivalent yield expression
+statement. For example, the yield statements</p>
+<div class="highlight-python3 notranslate"><div class="highlight" style="position: relative;"><button class="copybutton" type="button" title="Copy to clipboard">Copy</button><pre><span></span><span class="k">yield</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span>
+<span class="k">yield from</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<p>are equivalent to the yield expression statements</p>
+<div class="highlight-python3 notranslate"><div class="highlight" style="position: relative;"><button class="copybutton" type="button" title="Copy to clipboard">Copy</button><pre><span></span><span class="p">(</span><span class="k">yield</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">)</span>
+<span class="p">(</span><span class="k">yield from</span> <span class="o">&lt;</span><span class="n">expr</span><span class="o">&gt;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Yield expressions and statements are only used when defining a <a class="reference internal" href="https://docs.python.org/3/glossary.html#term-generator"><span class="xref std std-term">generator</span></a>
+function, and are only used in the body of the generator function.  Using <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#yield"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">yield</span></code></a>
+in a function definition is sufficient to cause that definition to create a
+generator function instead of a normal function.</p>
+<p>For full details of <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#yield"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">yield</span></code></a> semantics, refer to the
+<a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#yieldexpr"><span class="std std-ref">Yield expressions</span></a> section.</p>
+</section>
+<section id="the-raise-statement">
+<span id="raise"></span><h2><span class="section-number">7.8. </span>The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">raise</span></code> statement<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#the-raise-statement" title="Link to this heading">¶</a></h2>
+<pre class="highlight" id="index-27"><strong id="grammar-token-python-grammar-raise_stmt">raise_stmt</strong>: <span class="sx">"raise"</span> [<a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-expression"><code class="xref docutils literal notranslate"><span class="pre">expression</span></code></a> [<span class="sx">"from"</span> <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-expression"><code class="xref docutils literal notranslate"><span class="pre">expression</span></code></a>]]
+</pre>
+<p>If no expressions are present, <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#raise"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">raise</span></code></a> re-raises the
+exception that is currently being handled, which is also known as the <em>active exception</em>.
+If there isn’t currently an active exception, a <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#RuntimeError" title="RuntimeError"><code class="xref py py-exc docutils literal notranslate"><span class="pre">RuntimeError</span></code></a> exception is raised
+indicating that this is an error.</p>
+<p>Otherwise, <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#raise"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">raise</span></code></a> evaluates the first expression as the exception
+object.  It must be either a subclass or an instance of <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#BaseException" title="BaseException"><code class="xref py py-class docutils literal notranslate"><span class="pre">BaseException</span></code></a>.
+If it is a class, the exception instance will be obtained when needed by
+instantiating the class with no arguments.</p>
+<p>The <em class="dfn">type</em> of the exception is the exception instance’s class, the
+<em class="dfn">value</em> is the instance itself.</p>
+<p id="index-28">A traceback object is normally created automatically when an exception is raised
+and attached to it as the <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#BaseException.__traceback__" title="BaseException.__traceback__"><code class="xref py py-attr docutils literal notranslate"><span class="pre">__traceback__</span></code></a> attribute.
+You can create an exception and set your own traceback in one step using the
+<a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#BaseException.with_traceback" title="BaseException.with_traceback"><code class="xref py py-meth docutils literal notranslate"><span class="pre">with_traceback()</span></code></a> exception method (which returns the
+same exception instance, with its traceback set to its argument), like so:</p>
+<div class="highlight-python3 notranslate"><div class="highlight" style="position: relative;"><button class="copybutton" type="button" title="Copy to clipboard">Copy</button><pre><span></span><span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">"foo occurred"</span><span class="p">)</span><span class="o">.</span><span class="n">with_traceback</span><span class="p">(</span><span class="n">tracebackobj</span><span class="p">)</span>
+</pre></div>
+</div>
+<p id="index-29">The <code class="docutils literal notranslate"><span class="pre">from</span></code> clause is used for exception chaining: if given, the second
+<em>expression</em> must be another exception class or instance. If the second
+expression is an exception instance, it will be attached to the raised
+exception as the <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#BaseException.__cause__" title="BaseException.__cause__"><code class="xref py py-attr docutils literal notranslate"><span class="pre">__cause__</span></code></a> attribute (which is writable). If the
+expression is an exception class, the class will be instantiated and the
+resulting exception instance will be attached to the raised exception as the
+<code class="xref py py-attr docutils literal notranslate"><span class="pre">__cause__</span></code> attribute. If the raised exception is not handled, both
+exceptions will be printed:</p>
+<div class="highlight-pycon notranslate"><div class="highlight" style="position: relative;"><button class="copybutton" type="button" title="Copy to clipboard">Copy</button><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">try</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="mi">1</span> <span class="o">/</span> <span class="mi">0</span><span class="p">)</span>
+<span class="gp">... </span><span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">"Something bad happened"</span><span class="p">)</span> <span class="kn">from</span><span class="w"> </span><span class="nn">exc</span>
+<span class="gp">...</span>
+<span class="gt">Traceback (most recent call last):</span>
+  File <span class="nb">"&lt;stdin&gt;"</span>, line <span class="m">2</span>, in <span class="n">&lt;module&gt;</span>
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="mi">1</span> <span class="o">/</span> <span class="mi">0</span><span class="p">)</span>
+<span class="w">          </span><span class="pm">~~^~~</span>
+<span class="gr">ZeroDivisionError</span>: <span class="n">division by zero</span>
+
+<span class="gt">The above exception was the direct cause of the following exception:</span>
+
+<span class="gt">Traceback (most recent call last):</span>
+  File <span class="nb">"&lt;stdin&gt;"</span>, line <span class="m">4</span>, in <span class="n">&lt;module&gt;</span>
+<span class="w">    </span><span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">"Something bad happened"</span><span class="p">)</span> <span class="kn">from</span><span class="w"> </span><span class="nn">exc</span>
+<span class="gr">RuntimeError</span>: <span class="n">Something bad happened</span>
+</pre></div>
+</div>
+<p>A similar mechanism works implicitly if a new exception is raised when
+an exception is already being handled.  An exception may be handled
+when an <a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#except"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">except</span></code></a> or <a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#finally"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">finally</span></code></a> clause, or a
+<a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#with"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">with</span></code></a> statement, is used.  The previous exception is then
+attached as the new exception’s <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#BaseException.__context__" title="BaseException.__context__"><code class="xref py py-attr docutils literal notranslate"><span class="pre">__context__</span></code></a> attribute:</p>
+<div class="highlight-pycon notranslate"><div class="highlight" style="position: relative;"><button class="copybutton" type="button" title="Copy to clipboard">Copy</button><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">try</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="mi">1</span> <span class="o">/</span> <span class="mi">0</span><span class="p">)</span>
+<span class="gp">... </span><span class="k">except</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">"Something bad happened"</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="gt">Traceback (most recent call last):</span>
+  File <span class="nb">"&lt;stdin&gt;"</span>, line <span class="m">2</span>, in <span class="n">&lt;module&gt;</span>
+<span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="mi">1</span> <span class="o">/</span> <span class="mi">0</span><span class="p">)</span>
+<span class="w">          </span><span class="pm">~~^~~</span>
+<span class="gr">ZeroDivisionError</span>: <span class="n">division by zero</span>
+
+<span class="gt">During handling of the above exception, another exception occurred:</span>
+
+<span class="gt">Traceback (most recent call last):</span>
+  File <span class="nb">"&lt;stdin&gt;"</span>, line <span class="m">4</span>, in <span class="n">&lt;module&gt;</span>
+<span class="w">    </span><span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">"Something bad happened"</span><span class="p">)</span>
+<span class="gr">RuntimeError</span>: <span class="n">Something bad happened</span>
+</pre></div>
+</div>
+<p>Exception chaining can be explicitly suppressed by specifying <a class="reference internal" href="https://docs.python.org/3/library/constants.html#None" title="None"><code class="xref py py-const docutils literal notranslate"><span class="pre">None</span></code></a> in
+the <code class="docutils literal notranslate"><span class="pre">from</span></code> clause:</p>
+<div class="highlight-pycon notranslate"><div class="highlight" style="position: relative;"><button class="copybutton" type="button" title="Copy to clipboard">Copy</button><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">try</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="nb">print</span><span class="p">(</span><span class="mi">1</span> <span class="o">/</span> <span class="mi">0</span><span class="p">)</span>
+<span class="gp">... </span><span class="k">except</span><span class="p">:</span>
+<span class="gp">... </span>    <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">"Something bad happened"</span><span class="p">)</span> <span class="kn">from</span><span class="w"> </span><span class="kc">None</span>
+<span class="gp">...</span>
+<span class="gt">Traceback (most recent call last):</span>
+  File <span class="nb">"&lt;stdin&gt;"</span>, line <span class="m">4</span>, in <span class="n">&lt;module&gt;</span>
+<span class="gr">RuntimeError</span>: <span class="n">Something bad happened</span>
+</pre></div>
+</div>
+<p>Additional information on exceptions can be found in section <a class="reference internal" href="https://docs.python.org/3/reference/executionmodel.html#exceptions"><span class="std std-ref">Exceptions</span></a>,
+and information about handling exceptions is in section <a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#try"><span class="std std-ref">The try statement</span></a>.</p>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 3.3: </span><a class="reference internal" href="https://docs.python.org/3/library/constants.html#None" title="None"><code class="xref py py-const docutils literal notranslate"><span class="pre">None</span></code></a> is now permitted as <code class="docutils literal notranslate"><span class="pre">Y</span></code> in <code class="docutils literal notranslate"><span class="pre">raise</span> <span class="pre">X</span> <span class="pre">from</span> <span class="pre">Y</span></code>.</p>
+<p>Added the <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#BaseException.__suppress_context__" title="BaseException.__suppress_context__"><code class="xref py py-attr docutils literal notranslate"><span class="pre">__suppress_context__</span></code></a> attribute to suppress
+automatic display of the exception context.</p>
+</div>
+<div class="versionchanged">
+<p><span class="versionmodified changed">Changed in version 3.11: </span>If the traceback of the active exception is modified in an <a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#except"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">except</span></code></a>
+clause, a subsequent <code class="docutils literal notranslate"><span class="pre">raise</span></code> statement re-raises the exception with the
+modified traceback. Previously, the exception was re-raised with the
+traceback it had when it was caught.</p>
+</div>
+</section>
+<section id="the-break-statement">
+<span id="break"></span><h2><span class="section-number">7.9. </span>The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">break</span></code> statement<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#the-break-statement" title="Link to this heading">¶</a></h2>
+<pre class="highlight" id="index-30"><strong id="grammar-token-python-grammar-break_stmt">break_stmt</strong>: <span class="sx">"break"</span>
+</pre>
+<p><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#break"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">break</span></code></a> may only occur syntactically nested in a <a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#for"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">for</span></code></a> or
+<a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#while"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">while</span></code></a> loop, but not nested in a function or class definition within
+that loop.</p>
+<p id="index-31">It terminates the nearest enclosing loop, skipping the optional <code class="xref std std-keyword docutils literal notranslate"><span class="pre">else</span></code>
+clause if the loop has one.</p>
+<p>If a <a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#for"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">for</span></code></a> loop is terminated by <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#break"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">break</span></code></a>, the loop control
+target keeps its current value.</p>
+<p id="index-32">When <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#break"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">break</span></code></a> passes control out of a <a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#try"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">try</span></code></a> statement with a
+<a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#finally"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">finally</span></code></a> clause, that <code class="xref std std-keyword docutils literal notranslate"><span class="pre">finally</span></code> clause is executed before
+really leaving the loop.</p>
+</section>
+<section id="the-continue-statement">
+<span id="continue"></span><h2><span class="section-number">7.10. </span>The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">continue</span></code> statement<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#the-continue-statement" title="Link to this heading">¶</a></h2>
+<pre class="highlight" id="index-33"><strong id="grammar-token-python-grammar-continue_stmt">continue_stmt</strong>: <span class="sx">"continue"</span>
+</pre>
+<p><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#continue"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">continue</span></code></a> may only occur syntactically nested in a <a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#for"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">for</span></code></a> or
+<a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#while"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">while</span></code></a> loop, but not nested in a function or class definition within
+that loop.  It continues with the next cycle of the nearest enclosing loop.</p>
+<p>When <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#continue"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">continue</span></code></a> passes control out of a <a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#try"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">try</span></code></a> statement with a
+<a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#finally"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">finally</span></code></a> clause, that <code class="xref std std-keyword docutils literal notranslate"><span class="pre">finally</span></code> clause is executed before
+really starting the next loop cycle.</p>
+</section>
+<section id="the-import-statement">
+<span id="from"></span><span id="import"></span><h2><span class="section-number">7.11. </span>The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">import</span></code> statement<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#the-import-statement" title="Link to this heading">¶</a></h2>
+<pre class="highlight" id="index-34"><strong id="grammar-token-python-grammar-import_stmt">import_stmt</strong>:     <span class="sx">"import"</span> <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-module"><code class="xref docutils literal notranslate"><span class="pre">module</span></code></a> [<span class="sx">"as"</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a>] (<span class="sx">","</span> <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-module"><code class="xref docutils literal notranslate"><span class="pre">module</span></code></a> [<span class="sx">"as"</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a>])*
+                 | <span class="sx">"from"</span> <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-relative_module"><code class="xref docutils literal notranslate"><span class="pre">relative_module</span></code></a> <span class="sx">"import"</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a> [<span class="sx">"as"</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a>]
+                 (<span class="sx">","</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a> [<span class="sx">"as"</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a>])*
+                 | <span class="sx">"from"</span> <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-relative_module"><code class="xref docutils literal notranslate"><span class="pre">relative_module</span></code></a> <span class="sx">"import"</span> <span class="sx">"("</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a> [<span class="sx">"as"</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a>]
+                 (<span class="sx">","</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a> [<span class="sx">"as"</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a>])* [<span class="sx">","</span>] <span class="sx">")"</span>
+                 | <span class="sx">"from"</span> <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-relative_module"><code class="xref docutils literal notranslate"><span class="pre">relative_module</span></code></a> <span class="sx">"import"</span> <span class="sx">"*"</span>
+<strong id="grammar-token-python-grammar-module">module</strong>:          (<a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a> <span class="sx">"."</span>)* <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a>
+<strong id="grammar-token-python-grammar-relative_module">relative_module</strong>: <span class="sx">"."</span>* <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-module"><code class="xref docutils literal notranslate"><span class="pre">module</span></code></a> | <span class="sx">"."</span>+
+</pre>
+<p>The basic import statement (no <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#from"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">from</span></code></a> clause) is executed in two
+steps:</p>
+<ol class="arabic simple">
+<li><p>find a module, loading and initializing it if necessary</p></li>
+<li><p>define a name or names in the current namespace for the scope where
+the <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#import"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">import</span></code></a> statement occurs, just as an assignment statement
+would (including <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#global"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code></a> and <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#nonlocal"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">nonlocal</span></code></a> semantics).</p></li>
+</ol>
+<p>When the statement contains multiple clauses (separated by
+commas) the two steps are carried out separately for each clause, just
+as though the clauses had been separated out into individual import
+statements.</p>
+<p>The details of the first step, finding and loading modules, are described in
+greater detail in the section on the <a class="reference internal" href="https://docs.python.org/3/reference/import.html#importsystem"><span class="std std-ref">import system</span></a>,
+which also describes the various types of packages and modules that can
+be imported, as well as all the hooks that can be used to customize
+the import system. Note that failures in this step may indicate either
+that the module could not be located, <em>or</em> that an error occurred while
+initializing the module, which includes execution of the module’s code.</p>
+<p>If the requested module is retrieved successfully, it will be made
+available in the local namespace in one of three ways:</p>
+<ul class="simple" id="index-35">
+<li><p>If the module name is followed by <code class="xref std std-keyword docutils literal notranslate"><span class="pre">as</span></code>, then the name
+following <code class="xref std std-keyword docutils literal notranslate"><span class="pre">as</span></code> is bound directly to the imported module.</p></li>
+<li><p>If no other name is specified, and the module being imported is a top
+level module, the module’s name is bound in the local namespace as a
+reference to the imported module</p></li>
+<li><p>If the module being imported is <em>not</em> a top level module, then the name
+of the top level package that contains the module is bound in the local
+namespace as a reference to the top level package. The imported module
+must be accessed using its full qualified name rather than directly</p></li>
+</ul>
+<p id="index-36">The <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#from"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">from</span></code></a> form uses a slightly more complex process:</p>
+<ol class="arabic simple">
+<li><p>find the module specified in the <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#from"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">from</span></code></a> clause, loading and
+initializing it if necessary;</p></li>
+<li><p>for each of the identifiers specified in the <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#import"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">import</span></code></a> clauses:</p>
+<ol class="arabic simple">
+<li><p>check if the imported module has an attribute by that name</p></li>
+<li><p>if not, attempt to import a submodule with that name and then
+check the imported module again for that attribute</p></li>
+<li><p>if the attribute is not found, <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#ImportError" title="ImportError"><code class="xref py py-exc docutils literal notranslate"><span class="pre">ImportError</span></code></a> is raised.</p></li>
+<li><p>otherwise, a reference to that value is stored in the current namespace,
+using the name in the <code class="xref std std-keyword docutils literal notranslate"><span class="pre">as</span></code> clause if it is present,
+otherwise using the attribute name</p></li>
+</ol>
+</li>
+</ol>
+<p>Examples:</p>
+<div class="highlight-python3 notranslate"><div class="highlight" style="position: relative;"><button class="copybutton" type="button" title="Copy to clipboard">Copy</button><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">foo</span>                 <span class="c1"># foo imported and bound locally</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">foo.bar.baz</span>         <span class="c1"># foo, foo.bar, and foo.bar.baz imported, foo bound locally</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">foo.bar.baz</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">fbb</span>  <span class="c1"># foo, foo.bar, and foo.bar.baz imported, foo.bar.baz bound as fbb</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">foo.bar</span><span class="w"> </span><span class="kn">import</span> <span class="n">baz</span>    <span class="c1"># foo, foo.bar, and foo.bar.baz imported, foo.bar.baz bound as baz</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">foo</span><span class="w"> </span><span class="kn">import</span> <span class="n">attr</span>       <span class="c1"># foo imported and foo.attr bound as attr</span>
+</pre></div>
+</div>
+<p id="index-37">If the list of identifiers is replaced by a star (<code class="docutils literal notranslate"><span class="pre">'*'</span></code>), all public
+names defined in the module are bound in the local namespace for the scope
+where the <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#import"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">import</span></code></a> statement occurs.</p>
+<p id="module.__all__"><span id="index-38"></span>The <em>public names</em> defined by a module are determined by checking the module’s
+namespace for a variable named <code class="docutils literal notranslate"><span class="pre">__all__</span></code>; if defined, it must be a sequence
+of strings which are names defined or imported by that module.
+Names containing non-ASCII characters must be in the <a class="reference external" href="https://www.unicode.org/reports/tr15/#Norm_Forms">normalization form</a>
+NFKC; see <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#lexical-names-nonascii"><span class="std std-ref">Non-ASCII characters in names</span></a> for details.  The names
+given in <code class="docutils literal notranslate"><span class="pre">__all__</span></code> are all considered public and are required to exist.  If
+<code class="docutils literal notranslate"><span class="pre">__all__</span></code> is not defined, the set of public names includes all names found
+in the module’s namespace which do not begin with an underscore character
+(<code class="docutils literal notranslate"><span class="pre">'_'</span></code>).  <code class="docutils literal notranslate"><span class="pre">__all__</span></code> should contain the entire public API. It is intended
+to avoid accidentally exporting items that are not part of the API (such as
+library modules which were imported and used within the module).</p>
+<p>The wild card form of import — <code class="docutils literal notranslate"><span class="pre">from</span> <span class="pre">module</span> <span class="pre">import</span> <span class="pre">*</span></code> — is only allowed at
+the module level.  Attempting to use it in class or function definitions will
+raise a <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#SyntaxError" title="SyntaxError"><code class="xref py py-exc docutils literal notranslate"><span class="pre">SyntaxError</span></code></a>.</p>
+<p id="index-39">When specifying what module to import you do not have to specify the absolute
+name of the module. When a module or package is contained within another
+package it is possible to make a relative import within the same top package
+without having to mention the package name. By using leading dots in the
+specified module or package after <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#from"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">from</span></code></a> you can specify how high to
+traverse up the current package hierarchy without specifying exact names. One
+leading dot means the current package where the module making the import
+exists. Two dots means up one package level. Three dots is up two levels, etc.
+So if you execute <code class="docutils literal notranslate"><span class="pre">from</span> <span class="pre">.</span> <span class="pre">import</span> <span class="pre">mod</span></code> from a module in the <code class="docutils literal notranslate"><span class="pre">pkg</span></code> package
+then you will end up importing <code class="docutils literal notranslate"><span class="pre">pkg.mod</span></code>. If you execute <code class="docutils literal notranslate"><span class="pre">from</span> <span class="pre">..subpkg2</span>
+<span class="pre">import</span> <span class="pre">mod</span></code> from within <code class="docutils literal notranslate"><span class="pre">pkg.subpkg1</span></code> you will import <code class="docutils literal notranslate"><span class="pre">pkg.subpkg2.mod</span></code>.
+The specification for relative imports is contained in
+the <a class="reference internal" href="https://docs.python.org/3/reference/import.html#relativeimports"><span class="std std-ref">Package Relative Imports</span></a> section.</p>
+<p><a class="reference internal" href="https://docs.python.org/3/library/importlib.html#importlib.import_module" title="importlib.import_module"><code class="xref py py-func docutils literal notranslate"><span class="pre">importlib.import_module()</span></code></a> is provided to support applications that
+determine dynamically the modules to be loaded.</p>
+<p class="audit-hook">Raises an <a class="reference internal" href="https://docs.python.org/3/library/sys.html#auditing"><span class="std std-ref">auditing event</span></a> <code class="docutils literal notranslate"><span class="pre">import</span></code> with arguments <code class="docutils literal notranslate"><span class="pre">module</span></code>, <code class="docutils literal notranslate"><span class="pre">filename</span></code>, <code class="docutils literal notranslate"><span class="pre">sys.path</span></code>, <code class="docutils literal notranslate"><span class="pre">sys.meta_path</span></code>, <code class="docutils literal notranslate"><span class="pre">sys.path_hooks</span></code>.</p>
+<section id="future-statements">
+<span id="future"></span><h3><span class="section-number">7.11.1. </span>Future statements<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#future-statements" title="Link to this heading">¶</a></h3>
+<p id="index-40">A <em class="dfn">future statement</em> is a directive to the compiler that a particular
+module should be compiled using syntax or semantics that will be available in a
+specified future release of Python where the feature becomes standard.</p>
+<p>The future statement is intended to ease migration to future versions of Python
+that introduce incompatible changes to the language.  It allows use of the new
+features on a per-module basis before the release in which the feature becomes
+standard.</p>
+<pre class="highlight"><strong id="grammar-token-python-grammar-future_stmt">future_stmt</strong>: <span class="sx">"from"</span> <span class="sx">"__future__"</span> <span class="sx">"import"</span> <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-feature"><code class="xref docutils literal notranslate"><span class="pre">feature</span></code></a> [<span class="sx">"as"</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a>]
+             (<span class="sx">","</span> <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-feature"><code class="xref docutils literal notranslate"><span class="pre">feature</span></code></a> [<span class="sx">"as"</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a>])*
+             | <span class="sx">"from"</span> <span class="sx">"__future__"</span> <span class="sx">"import"</span> <span class="sx">"("</span> <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-feature"><code class="xref docutils literal notranslate"><span class="pre">feature</span></code></a> [<span class="sx">"as"</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a>]
+             (<span class="sx">","</span> <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#grammar-token-python-grammar-feature"><code class="xref docutils literal notranslate"><span class="pre">feature</span></code></a> [<span class="sx">"as"</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a>])* [<span class="sx">","</span>] <span class="sx">")"</span>
+<strong id="grammar-token-python-grammar-feature">feature</strong>:     <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a>
+</pre>
+<p>A future statement must appear near the top of the module.  The only lines that
+can appear before a future statement are:</p>
+<ul class="simple">
+<li><p>the module docstring (if any),</p></li>
+<li><p>comments,</p></li>
+<li><p>blank lines, and</p></li>
+<li><p>other future statements.</p></li>
+</ul>
+<p>The only feature that requires using the future statement is
+<code class="docutils literal notranslate"><span class="pre">annotations</span></code> (see <span class="target" id="index-41"></span><a class="pep reference external" href="https://peps.python.org/pep-0563/"><strong>PEP 563</strong></a>).</p>
+<p>All historical features enabled by the future statement are still recognized
+by Python 3.  The list includes <code class="docutils literal notranslate"><span class="pre">absolute_import</span></code>, <code class="docutils literal notranslate"><span class="pre">division</span></code>,
+<code class="docutils literal notranslate"><span class="pre">generators</span></code>, <code class="docutils literal notranslate"><span class="pre">generator_stop</span></code>, <code class="docutils literal notranslate"><span class="pre">unicode_literals</span></code>,
+<code class="docutils literal notranslate"><span class="pre">print_function</span></code>, <code class="docutils literal notranslate"><span class="pre">nested_scopes</span></code> and <code class="docutils literal notranslate"><span class="pre">with_statement</span></code>.  They are
+all redundant because they are always enabled, and only kept for
+backwards compatibility.</p>
+<p>A future statement is recognized and treated specially at compile time: Changes
+to the semantics of core constructs are often implemented by generating
+different code.  It may even be the case that a new feature introduces new
+incompatible syntax (such as a new reserved word), in which case the compiler
+may need to parse the module differently.  Such decisions cannot be pushed off
+until runtime.</p>
+<p>For any given release, the compiler knows which feature names have been defined,
+and raises a compile-time error if a future statement contains a feature not
+known to it.</p>
+<p>The direct runtime semantics are the same as for any import statement: there is
+a standard module <a class="reference internal" href="https://docs.python.org/3/library/__future__.html#module-__future__" title="__future__: Future statement definitions"><code class="xref py py-mod docutils literal notranslate"><span class="pre">__future__</span></code></a>, described later, and it will be imported in
+the usual way at the time the future statement is executed.</p>
+<p>The interesting runtime semantics depend on the specific feature enabled by the
+future statement.</p>
+<p>Note that there is nothing special about the statement:</p>
+<div class="highlight-python3 notranslate"><div class="highlight" style="position: relative;"><button class="copybutton" type="button" title="Copy to clipboard">Copy</button><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">__future__</span> <span class="p">[</span><span class="k">as</span> <span class="n">name</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>That is not a future statement; it’s an ordinary import statement with no
+special semantics or syntax restrictions.</p>
+<p>Code compiled by calls to the built-in functions <a class="reference internal" href="https://docs.python.org/3/library/functions.html#exec" title="exec"><code class="xref py py-func docutils literal notranslate"><span class="pre">exec()</span></code></a> and <a class="reference internal" href="https://docs.python.org/3/library/functions.html#compile" title="compile"><code class="xref py py-func docutils literal notranslate"><span class="pre">compile()</span></code></a>
+that occur in a module <code class="xref py py-mod docutils literal notranslate"><span class="pre">M</span></code> containing a future statement will, by default,
+use the new syntax or semantics associated with the future statement.  This can
+be controlled by optional arguments to <code class="xref py py-func docutils literal notranslate"><span class="pre">compile()</span></code> — see the documentation
+of that function for details.</p>
+<p>A future statement typed at an interactive interpreter prompt will take effect
+for the rest of the interpreter session.  If an interpreter is started with the
+<a class="reference internal" href="https://docs.python.org/3/using/cmdline.html#cmdoption-i"><code class="xref std std-option docutils literal notranslate"><span class="pre">-i</span></code></a> option, is passed a script name to execute, and the script includes
+a future statement, it will be in effect in the interactive session started
+after the script is executed.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<dl class="simple">
+<dt><span class="target" id="index-42"></span><a class="pep reference external" href="https://peps.python.org/pep-0236/"><strong>PEP 236</strong></a> - Back to the __future__</dt><dd><p>The original proposal for the __future__ mechanism.</p>
+</dd>
+</dl>
+</div>
+</section>
+</section>
+<section id="the-global-statement">
+<span id="global"></span><h2><span class="section-number">7.12. </span>The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code> statement<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#the-global-statement" title="Link to this heading">¶</a></h2>
+<pre class="highlight" id="index-43"><strong id="grammar-token-python-grammar-global_stmt">global_stmt</strong>: <span class="sx">"global"</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a> (<span class="sx">","</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a>)*
+</pre>
+<p>The <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#global"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code></a> statement causes the listed identifiers to be interpreted
+as globals. It would be impossible to assign to a global variable without
+<code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code>, although free variables may refer to globals without being
+declared global.</p>
+<p>The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code> statement applies to the entire current scope
+(module, function body or class definition).
+A <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#SyntaxError" title="SyntaxError"><code class="xref py py-exc docutils literal notranslate"><span class="pre">SyntaxError</span></code></a> is raised if a variable is used or
+assigned to prior to its global declaration in the scope.</p>
+<p>At the module level, all variables are global, so a <code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code>
+statement has no effect.
+However, variables must still not be used or
+assigned to prior to their <code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code> declaration.
+This requirement is relaxed in the interactive prompt (<a class="reference internal" href="https://docs.python.org/3/glossary.html#term-REPL"><span class="xref std std-term">REPL</span></a>).</p>
+<p id="index-44"><strong>Programmer’s note:</strong> <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#global"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code></a> is a directive to the parser.  It
+applies only to code parsed at the same time as the <code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code> statement.
+In particular, a <code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code> statement contained in a string or code
+object supplied to the built-in <a class="reference internal" href="https://docs.python.org/3/library/functions.html#exec" title="exec"><code class="xref py py-func docutils literal notranslate"><span class="pre">exec()</span></code></a> function does not affect the code
+block <em>containing</em> the function call, and code contained in such a string is
+unaffected by <code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code> statements in the code containing the function
+call.  The same applies to the <a class="reference internal" href="https://docs.python.org/3/library/functions.html#eval" title="eval"><code class="xref py py-func docutils literal notranslate"><span class="pre">eval()</span></code></a> and <a class="reference internal" href="https://docs.python.org/3/library/functions.html#compile" title="compile"><code class="xref py py-func docutils literal notranslate"><span class="pre">compile()</span></code></a> functions.</p>
+</section>
+<section id="the-nonlocal-statement">
+<span id="nonlocal"></span><h2><span class="section-number">7.13. </span>The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">nonlocal</span></code> statement<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#the-nonlocal-statement" title="Link to this heading">¶</a></h2>
+<pre class="highlight" id="index-45"><strong id="grammar-token-python-grammar-nonlocal_stmt">nonlocal_stmt</strong>: <span class="sx">"nonlocal"</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a> (<span class="sx">","</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a>)*
+</pre>
+<p>When the definition of a function or class is nested (enclosed) within
+the definitions of other functions, its nonlocal scopes are the local
+scopes of the enclosing functions. The <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#nonlocal"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">nonlocal</span></code></a> statement
+causes the listed identifiers to refer to names previously bound in
+nonlocal scopes. It allows encapsulated code to rebind such nonlocal
+identifiers.  If a name is bound in more than one nonlocal scope, the
+nearest binding is used. If a name is not bound in any nonlocal scope,
+or if there is no nonlocal scope, a <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#SyntaxError" title="SyntaxError"><code class="xref py py-exc docutils literal notranslate"><span class="pre">SyntaxError</span></code></a> is raised.</p>
+<p>The <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#nonlocal"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">nonlocal</span></code></a> statement applies to the entire scope of a function or
+class body. A <a class="reference internal" href="https://docs.python.org/3/library/exceptions.html#SyntaxError" title="SyntaxError"><code class="xref py py-exc docutils literal notranslate"><span class="pre">SyntaxError</span></code></a> is raised if a variable is used or
+assigned to prior to its nonlocal declaration in the scope.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<dl class="simple">
+<dt><span class="target" id="index-46"></span><a class="pep reference external" href="https://peps.python.org/pep-3104/"><strong>PEP 3104</strong></a> - Access to Names in Outer Scopes</dt><dd><p>The specification for the <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#nonlocal"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">nonlocal</span></code></a> statement.</p>
+</dd>
+</dl>
+</div>
+<p><strong>Programmer’s note:</strong> <a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#nonlocal"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">nonlocal</span></code></a> is a directive to the parser
+and applies only to code parsed along with it.  See the note for the
+<a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#global"><code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code></a> statement.</p>
+</section>
+<section id="the-type-statement">
+<span id="type"></span><h2><span class="section-number">7.14. </span>The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">type</span></code> statement<a class="headerlink" href="https://docs.python.org/3/reference/simple_stmts.html#the-type-statement" title="Link to this heading">¶</a></h2>
+<pre class="highlight" id="index-47"><strong id="grammar-token-python-grammar-type_stmt">type_stmt</strong>: <span class="sx">'type'</span> <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#grammar-token-python-grammar-identifier"><code class="xref docutils literal notranslate"><span class="pre">identifier</span></code></a> [<a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#grammar-token-python-grammar-type_params"><code class="xref docutils literal notranslate"><span class="pre">type_params</span></code></a>] <span class="sx">"="</span> <a class="reference internal" href="https://docs.python.org/3/reference/expressions.html#grammar-token-python-grammar-expression"><code class="xref docutils literal notranslate"><span class="pre">expression</span></code></a>
+</pre>
+<p>The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">type</span></code> statement declares a type alias, which is an instance
+of <a class="reference internal" href="https://docs.python.org/3/library/typing.html#typing.TypeAliasType" title="typing.TypeAliasType"><code class="xref py py-class docutils literal notranslate"><span class="pre">typing.TypeAliasType</span></code></a>.</p>
+<p>For example, the following statement creates a type alias:</p>
+<div class="highlight-python3 notranslate"><div class="highlight" style="position: relative;"><button class="copybutton" type="button" title="Copy to clipboard">Copy</button><pre><span></span><span class="nb">type</span> <span class="n">Point</span> <span class="o">=</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">float</span><span class="p">,</span> <span class="nb">float</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>This code is roughly equivalent to:</p>
+<div class="highlight-python3 notranslate"><div class="highlight" style="position: relative;"><button class="copybutton" type="button" title="Copy to clipboard">Copy</button><pre><span></span><span class="n">annotation</span><span class="o">-</span><span class="k">def</span><span class="w"> </span><span class="nf">VALUE_OF_Point</span><span class="p">():</span>
+    <span class="k">return</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">float</span><span class="p">,</span> <span class="nb">float</span><span class="p">]</span>
+<span class="n">Point</span> <span class="o">=</span> <span class="n">typing</span><span class="o">.</span><span class="n">TypeAliasType</span><span class="p">(</span><span class="s2">"Point"</span><span class="p">,</span> <span class="n">VALUE_OF_Point</span><span class="p">())</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">annotation-def</span></code> indicates an <a class="reference internal" href="https://docs.python.org/3/reference/executionmodel.html#annotation-scopes"><span class="std std-ref">annotation scope</span></a>, which behaves
+mostly like a function, but with several small differences.</p>
+<p>The value of the
+type alias is evaluated in the annotation scope. It is not evaluated when the
+type alias is created, but only when the value is accessed through the type alias’s
+<code class="xref py py-attr docutils literal notranslate"><span class="pre">__value__</span></code> attribute (see <a class="reference internal" href="https://docs.python.org/3/reference/executionmodel.html#lazy-evaluation"><span class="std std-ref">Lazy evaluation</span></a>).
+This allows the type alias to refer to names that are not yet defined.</p>
+<p>Type aliases may be made generic by adding a <a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#type-params"><span class="std std-ref">type parameter list</span></a>
+after the name. See <a class="reference internal" href="https://docs.python.org/3/reference/compound_stmts.html#generic-type-aliases"><span class="std std-ref">Generic type aliases</span></a> for more.</p>
+<p><code class="xref std std-keyword docutils literal notranslate"><span class="pre">type</span></code> is a <a class="reference internal" href="https://docs.python.org/3/reference/lexical_analysis.html#soft-keywords"><span class="std std-ref">soft keyword</span></a>.</p>
+<div class="versionadded">
+<p><span class="versionmodified added">Added in version 3.12.</span></p>
+</div>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<dl class="simple">
+<dt><span class="target" id="index-48"></span><a class="pep reference external" href="https://peps.python.org/pep-0695/"><strong>PEP 695</strong></a> - Type Parameter Syntax</dt><dd><p>Introduced the <code class="xref std std-keyword docutils literal notranslate"><span class="pre">type</span></code> statement and syntax for
+generic classes and functions.</p>
+</dd>
+</dl>
+</div>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="https://docs.python.org/3/contents.html">Table of Contents</a></h3>
+    <ul>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#">7. Simple statements</a><ul>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#expression-statements">7.1. Expression statements</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#assignment-statements">7.2. Assignment statements</a><ul>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#augmented-assignment-statements">7.2.1. Augmented assignment statements</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#annotated-assignment-statements">7.2.2. Annotated assignment statements</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement">7.3. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">assert</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-pass-statement">7.4. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">pass</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-del-statement">7.5. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">del</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-return-statement">7.6. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">return</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-yield-statement">7.7. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">yield</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-raise-statement">7.8. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">raise</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-break-statement">7.9. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">break</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-continue-statement">7.10. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">continue</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-import-statement">7.11. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">import</span></code> statement</a><ul>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#future-statements">7.11.1. Future statements</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-global-statement">7.12. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">global</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-nonlocal-statement">7.13. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">nonlocal</span></code> statement</a></li>
+<li><a class="reference internal" href="https://docs.python.org/3/reference/simple_stmts.html#the-type-statement">7.14. The <code class="xref std std-keyword docutils literal notranslate"><span class="pre">type</span></code> statement</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Previous topic</h4>
+    <p class="topless"><a href="https://docs.python.org/3/reference/expressions.html" title="previous chapter"><span class="section-number">6. </span>Expressions</a></p>
+  </div>
+  <div>
+    <h4>Next topic</h4>
+    <p class="topless"><a href="https://docs.python.org/3/reference/compound_stmts.html" title="next chapter"><span class="section-number">8. </span>Compound statements</a></p>
+  </div>
+  
+  <div role="note" aria-label="source link">
+    <h3>This page</h3>
+    <ul class="this-page-menu">
+      <li><a href="https://docs.python.org/3/bugs.html">Report a bug</a></li>
+      <li><a class="improvepage" href="https://docs.python.org/3/improve-page.html?pagetitle=7.+Simple+statements&amp;pageurl=https%3A%2F%2Fdocs.python.org%2F3%2Freference%2Fsimple_stmts.html%23grammar-token-python-grammar-relative_module&amp;pagesource=reference%2Fsimple_stmts.rst">Improve this page</a></li>
+      <li>
+        <a href="https://github.com/python/cpython/blob/main/Doc/reference/simple_stmts.rst?plain=1" rel="nofollow">Show source
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+        </div>
+<div id="sidebarbutton" title="Collapse sidebar">
+<span>«</span>
+</div>
+
+      </div>
+      <div class="clearer"></div>
+    </div>  
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="https://docs.python.org/3/genindex.html" title="General Index">index</a></li>
+        <li class="right">
+          <a href="https://docs.python.org/3/py-modindex.html" title="Python Module Index">modules</a> |</li>
+        <li class="right">
+          <a href="https://docs.python.org/3/reference/compound_stmts.html" title="8. Compound statements">next</a> |</li>
+        <li class="right">
+          <a href="https://docs.python.org/3/reference/expressions.html" title="6. Expressions">previous</a> |</li>
+
+          <li><img src="https://docs.python.org/3/_static/py.svg" alt="Python logo" style="vertical-align: middle; margin-top: -1px"></li>
+          <li><a href="https://www.python.org/">Python</a> »</li>
+          <li class="switchers">
+            <div class="language_switcher_placeholder"><select class="language-select" aria-label="Language"><option value="el">Greek | Ελληνικά</option><option value="en">English</option><option value="es">Spanish | español</option><option value="fr">French | français</option><option value="it">Italian | italiano</option><option value="ja">Japanese | 日本語</option><option value="ko">Korean | 한국어</option><option value="pl">Polish | polski</option><option value="pt-br">Brazilian Portuguese | Português brasileiro</option><option value="ro">Romanian | Românește</option><option value="tr">Turkish | Türkçe</option><option value="zh-cn">Simplified Chinese | 简体中文</option><option value="zh-tw">Traditional Chinese | 繁體中文</option></select></div>
+            <div class="version_switcher_placeholder"><select class="version-select" aria-label="Python version"><option value="3.16">dev (3.16)</option><option value="3.15">pre (3.15)</option><option value="3.14">3.14.7</option><option value="3.13">3.13</option><option value="3.12">3.12</option><option value="3.11">3.11</option><option value="3.10">3.10</option><option value="3.9">3.9</option><option value="3.8">3.8</option><option value="3.7">3.7</option><option value="3.6">3.6</option><option value="3.5">3.5</option><option value="3.4">3.4</option><option value="3.3">3.3</option><option value="3.2">3.2</option><option value="3.1">3.1</option><option value="3.0">3.0</option><option value="2.7">2.7</option><option value="2.6">2.6</option></select></div>
+          </li>
+          <li>
+              
+          </li>
+    <li id="cpython-language-and-version">
+      <a href="https://docs.python.org/3/index.html">3.14.7 Documentation</a> »
+    </li>
+
+          <li class="nav-item nav-item-1"><a href="https://docs.python.org/3/reference/index.html">The Python Language Reference</a> »</li>
+        <li class="nav-item nav-item-this"><a href="https://docs.python.org/3/reference/simple_stmts.html"><span class="section-number">7. </span>Simple statements</a></li>
+                <li class="right">
+                    
+
+    <div class="inline-search" role="search">
+        <form class="inline-search" action="https://docs.python.org/3/search.html" method="get">
+          <input placeholder="Quick search" aria-label="Quick search" type="search" name="q" id="search-box">
+          <input type="submit" value="Go">
+        </form>
+    </div>
+                     |
+                </li>
+            <li class="right">
+<label class="theme-selector-label">
+    Theme
+    <select class="theme-selector">
+        <option value="auto" selected="">Auto</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+    </select>
+</label> |</li>
+            
+      </ul>
+    </div>  
+    <div class="footer">
+    © <a href="https://docs.python.org/3/copyright.html">Copyright</a> 2001 Python Software Foundation.
+    <br>
+    This page is licensed under the Python Software Foundation License Version 2.
+    <br>
+    Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License.
+    <br>
+    
+      See <a href="https://docs.python.org/license.html">History and License</a> for more information.<br>
+    
+    
+    <br>
+
+    The Python Software Foundation is a non-profit corporation.
+<a href="https://www.python.org/psf/donations/">Please donate.</a>
+<br>
+    <br>
+      Last updated on Aug 16, 2026 (20:52 UTC).
+    
+      <a href="https://docs.python.org/bugs.html">Found a bug</a>?
+    
+    <br>
+
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+
+    
+  
+</body></html>
+------MultipartBoundary--qjklQEHlqzSOZBNWOQ7VmICdZF3eCoIB0liR22LW1c----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: binary
+Content-Location: https://docs.python.org/3/_static/py.svg
+
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.90472 0.00013087C7.24498 0.00316295 6.61493 0.0588153 6.06056 0.15584C4.42744 0.441207 4.13093 1.0385 4.13093 2.14002V3.59479H7.99018V4.07971H4.13093H2.68259C1.56098 4.07971 0.578874 4.7465 0.271682 6.01495C-0.0826595 7.4689 -0.0983765 8.37618 0.271682 9.89434C0.546011 11.0244 1.20115 11.8296 2.32275 11.8296H3.64965V10.0856C3.64965 8.82574 4.75178 7.71441 6.06056 7.71441H9.91531C10.9883 7.71441 11.8449 6.84056 11.8449 5.77472V2.14002C11.8449 1.10556 10.9626 0.328486 9.91531 0.15584C9.25235 0.046687 8.56447 -0.00290121 7.90472 0.00013087ZM5.81767 1.17017C6.2163 1.17017 6.54184 1.49742 6.54184 1.89978C6.54184 2.30072 6.2163 2.62494 5.81767 2.62494C5.41761 2.62494 5.0935 2.30072 5.0935 1.89978C5.0935 1.49742 5.41761 1.17017 5.81767 1.17017Z" fill="url(#paint0_linear)"/>
+<path d="M12.3262 4.07971V5.77472C12.3262 7.08883 11.1998 8.19488 9.9153 8.19488H6.06055C5.00466 8.19488 4.13092 9.0887 4.13092 10.1346V13.7693C4.13092 14.8037 5.04038 15.4122 6.06055 15.709C7.28217 16.0642 8.45364 16.1285 9.9153 15.709C10.8869 15.4307 11.8449 14.8708 11.8449 13.7693V12.3145H7.99017V11.8296H11.8449H13.7746C14.8962 11.8296 15.3141 11.0558 15.7042 9.89434C16.1071 8.69865 16.09 7.5488 15.7042 6.01495C15.427 4.91058 14.8976 4.07971 13.7746 4.07971H12.3262ZM10.1582 13.2843C10.5583 13.2843 10.8824 13.6086 10.8824 14.0095C10.8824 14.4119 10.5583 14.7391 10.1582 14.7391C9.75955 14.7391 9.43402 14.4119 9.43402 14.0095C9.43402 13.6086 9.75955 13.2843 10.1582 13.2843Z" fill="url(#paint1_linear)"/>
+<defs>
+<linearGradient id="paint0_linear" x1="1.25961e-08" y1="1.08223e-08" x2="8.81664" y2="7.59597" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5A9FD4"/>
+<stop offset="1" stop-color="#306998"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="10.0654" y1="13.8872" x2="6.91912" y2="9.42957" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFD43B"/>
+<stop offset="1" stop-color="#FFE873"/>
+</linearGradient>
+</defs>
+</svg>
+
+------MultipartBoundary--qjklQEHlqzSOZBNWOQ7VmICdZF3eCoIB0liR22LW1c----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://docs.python.org/3/_static/pydoctheme_dark.css
+
+@charset "utf-8";
+
+:root { --good-color: rgb(79 196 100); --good-border: var(--good-color); --middle-color: rgb(244, 227, 76); --middle-border: var(--middle-color); --bad-color: rgb(244, 76, 78); --bad-border: var(--bad-color); }
+
+:root { scrollbar-color: rgb(97, 97, 97) transparent; color-scheme: dark; }
+
+html, body { background-color: rgb(34, 34, 34); color: rgba(255, 255, 255, 0.87); }
+
+div.related { color: rgba(255, 255, 255, 0.7); border-color: rgb(66, 66, 66); }
+
+div.sphinxsidebar, .menu-wrapper { background-color: rgb(51, 51, 51); color: inherit; }
+
+#sidebarbutton { background-color: rgb(85, 85, 85) !important; color: inherit !important; }
+
+div.sidebar, aside.sidebar { background-color: rgb(66, 66, 66); border-color: rgb(97, 97, 97); }
+
+div.body a { color: rgb(119, 170, 255); }
+
+div.body a:visited { color: rgb(0, 153, 238); }
+
+a.headerlink:hover { background-color: rgb(66, 66, 66); }
+
+div.related a { color: currentcolor; }
+
+div.footer, div.footer a { color: currentcolor; }
+
+dt:target, span.highlighted { background-color: rgb(97, 97, 97); }
+
+.footnote:target { background-color: rgb(44, 62, 80); }
+
+dl.field-list > dt { background-color: rgb(68, 51, 68); }
+
+table.docutils td, table.docutils th { border-color: rgb(97, 97, 97) !important; }
+
+table.docutils th { background-color: rgb(66, 66, 66); }
+
+.stableabi { color: rgb(187, 187, 255); }
+
+div.body pre { border-color: rgb(97, 97, 97); }
+
+div.code-block-caption { background-color: rgb(51, 51, 51); border-color: rgb(97, 97, 97); color: white; }
+
+code { background-color: rgb(66, 66, 66); }
+
+div.body div.seealso { background-color: rgba(255, 255, 0, 0.1); }
+
+div.warning { background-color: rgba(255, 0, 0, 0.2); }
+
+.warning code { background-color: rgba(255, 0, 0, 0.5); }
+
+:root { --admonition-background: #ffffff1a; --admonition-border: currentColor; --admonition-color: #ffffffde; --attention-background: #ffffff1a; --attention-border: currentColor; --caution-background: #ffff001a; --caution-border: #dd6; --danger-background: #f003; --danger-border: #f66; --error-background: #f003; --error-border: #f66; --hint-background: #0044117a; --hint-border: green; --seealso-background: #ffff001a; --seealso-border: #dd6; --tip-background: #0044117a; --tip-border: green; --warning-background: #ff000033; --warning-border: #ff6666; }
+
+aside.topic, div.topic, div.note, nav.contents { background-color: rgba(255, 255, 255, 0.1); border-color: currentcolor; }
+
+.note code { background-color: rgba(255, 255, 255, 0.1); }
+
+.mobile-nav { box-shadow: rgba(255, 255, 255, 0.25) 0px 0px 2px 0px; }
+
+.nav-content { background-color: black; }
+
+img.invert-in-dark-mode { filter: invert(1) hue-rotate(0.5turn); }
+
+.sig.c .k, .sig.c .kt, .sig.cpp .k, .sig.cpp .kt { color: rgb(82, 131, 255); }
+
+:root { --versionadded: var(--good-color); --versionchanged: var(--middle-color); --deprecated: var(--bad-color); --soft-deprecated: rgb(206, 100, 255); --soft-deprecated-border: rgb(206, 100, 255); }
+
+.copybutton { color: rgb(170, 204, 153); background-color: rgb(34, 34, 34); }
+
+.copybutton:hover { background-color: rgb(67, 67, 67); }
+
+.copybutton:active { background-color: rgb(101, 101, 101); }
+------MultipartBoundary--qjklQEHlqzSOZBNWOQ7VmICdZF3eCoIB0liR22LW1c----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://docs.python.org/3/_static/pygments_dark.css?v=5349f25f
+
+@charset "utf-8";
+
+pre { line-height: 125%; }
+
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+
+td.linenos .special { color: rgb(0, 0, 0); background-color: rgb(255, 255, 192); padding-left: 5px; padding-right: 5px; }
+
+span.linenos.special { color: rgb(0, 0, 0); background-color: rgb(255, 255, 192); padding-left: 5px; padding-right: 5px; }
+
+.highlight .hll { background-color: rgb(73, 72, 62); }
+
+.highlight { background: rgb(39, 40, 34); color: rgb(248, 248, 242); }
+
+.highlight .c { color: rgb(149, 144, 119); }
+
+.highlight .err { color: rgb(237, 0, 126); background-color: rgb(30, 0, 16); }
+
+.highlight .esc { color: rgb(248, 248, 242); }
+
+.highlight .g { color: rgb(248, 248, 242); }
+
+.highlight .k { color: rgb(102, 217, 239); }
+
+.highlight .l { color: rgb(174, 129, 255); }
+
+.highlight .n { color: rgb(248, 248, 242); }
+
+.highlight .o { color: rgb(255, 70, 137); }
+
+.highlight .x { color: rgb(248, 248, 242); }
+
+.highlight .p { color: rgb(248, 248, 242); }
+
+.highlight .ch { color: rgb(149, 144, 119); }
+
+.highlight .cm { color: rgb(149, 144, 119); }
+
+.highlight .cp { color: rgb(149, 144, 119); }
+
+.highlight .cpf { color: rgb(149, 144, 119); }
+
+.highlight .c1 { color: rgb(149, 144, 119); }
+
+.highlight .cs { color: rgb(149, 144, 119); }
+
+.highlight .gd { color: rgb(255, 70, 137); }
+
+.highlight .ge { color: rgb(248, 248, 242); font-style: italic; }
+
+.highlight .ges { color: rgb(248, 248, 242); font-weight: bold; font-style: italic; }
+
+.highlight .gr { color: rgb(248, 248, 242); }
+
+.highlight .gh { color: rgb(248, 248, 242); }
+
+.highlight .gi { color: rgb(166, 226, 46); }
+
+.highlight .go { color: rgb(102, 217, 239); }
+
+.highlight .gp { color: rgb(255, 70, 137); font-weight: bold; }
+
+.highlight .gs { color: rgb(248, 248, 242); font-weight: bold; }
+
+.highlight .gu { color: rgb(149, 144, 119); }
+
+.highlight .gt { color: rgb(248, 248, 242); }
+
+.highlight .kc { color: rgb(102, 217, 239); }
+
+.highlight .kd { color: rgb(102, 217, 239); }
+
+.highlight .kn { color: rgb(255, 70, 137); }
+
+.highlight .kp { color: rgb(102, 217, 239); }
+
+.highlight .kr { color: rgb(102, 217, 239); }
+
+.highlight .kt { color: rgb(102, 217, 239); }
+
+.highlight .ld { color: rgb(230, 219, 116); }
+
+.highlight .m { color: rgb(174, 129, 255); }
+
+.highlight .s { color: rgb(230, 219, 116); }
+
+.highlight .na { color: rgb(166, 226, 46); }
+
+.highlight .nb { color: rgb(248, 248, 242); }
+
+.highlight .nc { color: rgb(166, 226, 46); }
+
+.highlight .no { color: rgb(102, 217, 239); }
+
+.highlight .nd { color: rgb(166, 226, 46); }
+
+.highlight .ni { color: rgb(248, 248, 242); }
+
+.highlight .ne { color: rgb(166, 226, 46); }
+
+.highlight .nf { color: rgb(166, 226, 46); }
+
+.highlight .nl { color: rgb(248, 248, 242); }
+
+.highlight .nn { color: rgb(248, 248, 242); }
+
+.highlight .nx { color: rgb(166, 226, 46); }
+
+.highlight .py { color: rgb(248, 248, 242); }
+
+.highlight .nt { color: rgb(255, 70, 137); }
+
+.highlight .nv { color: rgb(248, 248, 242); }
+
+.highlight .ow { color: rgb(255, 70, 137); }
+
+.highlight .pm { color: rgb(248, 248, 242); }
+
+.highlight .w { color: rgb(248, 248, 242); }
+
+.highlight .mb { color: rgb(174, 129, 255); }
+
+.highlight .mf { color: rgb(174, 129, 255); }
+
+.highlight .mh { color: rgb(174, 129, 255); }
+
+.highlight .mi { color: rgb(174, 129, 255); }
+
+.highlight .mo { color: rgb(174, 129, 255); }
+
+.highlight .sa { color: rgb(230, 219, 116); }
+
+.highlight .sb { color: rgb(230, 219, 116); }
+
+.highlight .sc { color: rgb(230, 219, 116); }
+
+.highlight .dl { color: rgb(230, 219, 116); }
+
+.highlight .sd { color: rgb(230, 219, 116); }
+
+.highlight .s2 { color: rgb(230, 219, 116); }
+
+.highlight .se { color: rgb(174, 129, 255); }
+
+.highlight .sh { color: rgb(230, 219, 116); }
+
+.highlight .si { color: rgb(230, 219, 116); }
+
+.highlight .sx { color: rgb(230, 219, 116); }
+
+.highlight .sr { color: rgb(230, 219, 116); }
+
+.highlight .s1 { color: rgb(230, 219, 116); }
+
+.highlight .ss { color: rgb(230, 219, 116); }
+
+.highlight .bp { color: rgb(248, 248, 242); }
+
+.highlight .fm { color: rgb(166, 226, 46); }
+
+.highlight .vc { color: rgb(248, 248, 242); }
+
+.highlight .vg { color: rgb(248, 248, 242); }
+
+.highlight .vi { color: rgb(248, 248, 242); }
+
+.highlight .vm { color: rgb(248, 248, 242); }
+
+.highlight .il { color: rgb(174, 129, 255); }
+------MultipartBoundary--qjklQEHlqzSOZBNWOQ7VmICdZF3eCoIB0liR22LW1c----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://docs.python.org/3/_static/pydoctheme.css?v=4365c8fe
+
+@charset "utf-8";
+
+:root { --good-color: rgb(41 100 51); --good-border: rgb(79 196 100); --middle-color: rgb(133 72 38); --middle-border: rgb(244, 227, 76); --bad-color: rgb(159 49 51); --bad-border: rgb(244, 76, 78); }
+
+div.document, div.body, div.related, div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6, div.sphinxsidebar a, div.sphinxsidebar p, div.sphinxsidebar ul, div.sphinxsidebar h3, div.sphinxsidebar h3 a, div.sphinxsidebar h4, .menu a, .menu p, .menu ul, .menu h3, .menu h3 a, .menu h4, table.docutils td, table.indextable tr.cap, pre { background-color: inherit; color: inherit; }
+
+a[href] { text-decoration: underline 1px; }
+
+a[href]:has(> code) { text-underline-offset: 0.25em; }
+
+a.headerlink, div.genindex-jumpbox a, div.modindex-jumpbox a, div#search-results a, div.sphinxsidebar a, div.toctree-wrapper a, div[role="navigation"] a, table.contentstable a, table.indextable a { text-decoration: none; }
+
+div.genindex-jumpbox a:hover, div.modindex-jumpbox a:hover, div#search-results a:hover, div.sphinxsidebar a:hover, div.toctree-wrapper a:hover, div[role="navigation"] a:hover, table.contentstable a:hover, table.indextable a:hover { text-decoration: underline; text-underline-offset: auto; }
+
+body { margin-left: 1em; margin-right: 1em; }
+
+.mobile-nav, .menu-wrapper { display: none; }
+
+div.related { margin-top: 0.5em; margin-bottom: 1.2em; padding: 0.5em 0px; border-width: 1px; border-color: rgb(204, 204, 204); }
+
+.mobile-nav + div.related { border-bottom-style: solid; }
+
+.document + div.related { border-top-style: solid; }
+
+div.related a:hover { color: rgb(0, 149, 196); }
+
+.related .switchers { display: inline-flex; }
+
+.switchers > div { margin-right: 5px; }
+
+div.related ul::after { content: ""; clear: both; display: block; }
+
+.inline-search, form.inline-search input { display: inline; }
+
+form.inline-search input[type="submit"] { width: auto; min-width: 40px; }
+
+div.document { display: flex; overflow-wrap: break-word; }
+
+span.pre { white-space: unset; }
+
+div.sphinxsidebar { display: flex; width: min(25vw, 350px); float: none; position: sticky; top: 0px; max-height: 100vh; color: rgb(68, 68, 68); background-color: rgb(238, 238, 238); border-radius: 5px; line-height: 130%; font-size: smaller; }
+
+div.sphinxsidebar h3, div.sphinxsidebar h4 { margin-top: 1.5em; }
+
+div.bodywrapper { margin-left: min(25vw, 350px); }
+
+div.sphinxsidebarwrapper { box-sizing: border-box; height: 100%; overflow: hidden auto; float: none; flex-grow: 1; }
+
+div.sphinxsidebarwrapper > h3:first-child { margin-top: 0.2em; }
+
+div.sphinxsidebarwrapper > ul > li > ul > li { margin-bottom: 0.4em; }
+
+div.sphinxsidebar a:hover { color: rgb(0, 149, 196); }
+
+form.inline-search input, div.sphinxsidebar input, div.related input { font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; border: 1px solid rgb(153, 153, 153); font-size: smaller; border-radius: 3px; }
+
+div.sphinxsidebar input[type="text"] { max-width: 150px; }
+
+#sidebarbutton { display: flex; justify-content: center; align-items: center; width: 12px; min-width: 12px; border-radius: 0px 5px 5px 0px; border-left-width: medium; border-left-style: none; border-left-color: currentcolor; }
+
+#sidebarbutton:hover { background-color: rgb(170, 170, 170); }
+
+div.body { padding: 0px 0px 0px 1.2em; }
+
+div.body p, div.body dd, div.body li, div.body blockquote { text-align: left; line-height: 1.6; }
+
+div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6 { margin: 0px; border: 0px; padding: 0.3em 0px; }
+
+div.body dl.field-list > dt { line-height: 1.6; }
+
+div.body hr { border: 0px; background-color: rgb(204, 204, 204); height: 1px; }
+
+div.body pre { border-radius: 3px; border: 1px solid rgb(170, 204, 153); }
+
+div.body {
+  & .good pre { border-left: 3px solid var(--good-border); }
+  & .bad pre { border-left: 3px solid var(--bad-border); }
+  & .maybe pre { border-left: 3px solid var(--middle-border); }
+}
+
+div.code-block-caption {
+  background-color: rgb(238, 238, 238); border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(170, 204, 153) rgb(170, 204, 153) currentcolor; border-image: none; border-radius: 3px 3px 0px 0px; padding: 0.3em 0.6em; font-size: 90%; color: rgb(51, 51, 51);
+  & + div pre { border-top-left-radius: 0px !important; border-top-right-radius: 0px !important; }
+  & + div .copybutton { border-top-right-radius: 0px !important; }
+}
+
+:root { --admonition-background: #eee; --admonition-border: #ccc; --admonition-color: black; --attention-background: #bbddff5c; --attention-border: #0000ff36; --caution-background: #ffc; --caution-border: #dd6; --danger-background: #ffe4e4; --danger-border: red; --error-background: #ffe4e4; --error-border: red; --hint-background: #dfd; --hint-border: green; --seealso-background: #ffc; --seealso-border: #dd6; --tip-background: #dfd; --tip-border: green; --warning-background: #ffe4e4; --warning-border: red; }
+
+div.body div.admonition { background-color: var(--admonition-background); border: 1px solid var(--admonition-border); border-radius: 3px; color: var(--admonition-color); }
+
+div.body div.admonition.attention { background-color: var(--attention-background); border-color: var(--attention-border); }
+
+div.body div.admonition.caution { background-color: var(--caution-background); border-color: var(--caution-border); }
+
+div.body div.admonition.danger { background-color: var(--danger-background); border-color: var(--danger-border); }
+
+div.body div.admonition.error { background-color: var(--error-background); border-color: var(--error-border); }
+
+div.body div.admonition.hint { background-color: var(--hint-background); border-color: var(--hint-border); }
+
+div.body div.admonition.seealso { background-color: var(--seealso-background); border-color: var(--seealso-border); }
+
+div.body div.admonition.tip { background-color: var(--tip-background); border-color: var(--tip-border); }
+
+div.body div.admonition.warning { background-color: var(--warning-background); border-color: var(--warning-border); }
+
+div.body div.impl-detail { border-radius: 3px; }
+
+div.body div.impl-detail > p { margin: 0px; }
+
+div.body a { color: rgb(0, 114, 170); }
+
+div.body a:visited { color: rgb(99, 99, 187); }
+
+div.body a:hover { color: rgb(0, 176, 228); }
+
+tt, code, pre { font-family: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace; font-size: 96.5%; }
+
+div.body pre { line-height: 120%; }
+
+div.body tt, div.body code { border-radius: 3px; }
+
+div.body tt.descname, div.body code.descname { font-size: 120%; }
+
+div.body tt.xref, div.body a tt, div.body code.xref, div.body a code { font-weight: normal; }
+
+table.docutils { border: 1px solid rgb(221, 221, 221); min-width: 20%; border-radius: 3px; margin-top: 10px; margin-bottom: 10px; }
+
+table.docutils td, table.docutils th { border-radius: 3px; padding: 0.3em 0.5em; border: 1px solid rgb(221, 221, 221) !important; }
+
+table p, table li { text-align: left !important; }
+
+table.docutils th { background-color: rgb(238, 238, 238); }
+
+table.footnote, table.footnote td { border: 0px !important; }
+
+div.footer { line-height: 150%; text-align: right; width: auto; margin-right: 10px; }
+
+div.footer a { text-underline-offset: auto; }
+
+div.footer a:hover { color: rgb(0, 149, 196); }
+
+:root { --refcount: var(--good-color); --refcount-return-borrowed-ref: var(--middle-color); }
+
+.refcount { color: var(--refcount); }
+
+.refcount.return_borrowed_ref { color: var(--refcount-return-borrowed-ref); }
+
+.stableabi { color: rgb(34, 34, 153); }
+
+:root { --threadsafety-incompatible: var(--bad-color); --threadsafety-compatible: var(--middle-color); --threadsafety-distinct: var(--middle-color); --threadsafety-shared: var(--good-color); --threadsafety-atomic: var(--good-color); }
+
+.threadsafety.threadsafety-incompatible { color: var(--threadsafety-incompatible); }
+
+.threadsafety.threadsafety-compatible { color: var(--threadsafety-compatible); }
+
+.threadsafety.threadsafety-distinct { color: var(--threadsafety-distinct); }
+
+.threadsafety.threadsafety-shared { color: var(--threadsafety-shared); }
+
+.threadsafety.threadsafety-atomic { color: var(--threadsafety-atomic); }
+
+dl > dt span ~ em, .sig { font-family: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace; }
+
+.toctree-wrapper ul { padding-left: 20px; }
+
+.theme-selector { margin-left: 0.5em; }
+
+div.genindex-jumpbox, div.genindex-jumpbox > p { display: inline-flex; flex-wrap: wrap; }
+
+div.genindex-jumpbox a { margin: 0px 5px; min-width: 30px; text-align: center; }
+
+.copybutton { cursor: pointer; position: absolute; top: 0px; right: 0px; font-family: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace; font-size: 80%; padding-left: 0.5em; padding-right: 0.5em; height: 100%; max-height: min(100%, 2.4em); border-radius: 0px 3px 0px 0px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border: 1px solid rgb(170, 204, 153); display: none; }
+
+.copybutton:hover { background-color: rgb(238, 238, 238); }
+
+.copybutton:active { background-color: rgb(221, 221, 221); }
+
+.highlight:active .copybutton { display: block; }
+
+.highlight:hover .copybutton { display: block; }
+
+@media (max-width: 1023px) {
+  div.body { min-width: 100%; padding: 0px; font-size: 0.875rem; }
+  div.bodywrapper { margin: 0px; }
+  div.body h1 { font-size: 1.625rem; }
+  div.body h2 { font-size: 1.25rem; }
+  div.body h3, div.body h4, div.body h5 { font-size: 1rem; }
+  div.body ul { padding-inline-start: 1rem; }
+  div.body blockquote { margin-inline: 1rem 0px; }
+  div.related, div.sphinxsidebar { display: none; }
+  html { scroll-padding-top: 40px; }
+  body { margin-top: 40px; }
+  .mobile-nav { display: block; height: 40px; width: 100%; position: fixed; top: 0px; left: 0px; box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 2px 0px; z-index: 1; }
+  .mobile-nav * { box-sizing: border-box; }
+  .nav-content { position: absolute; z-index: 1; height: 40px; width: 100%; display: flex; background-color: white; }
+  .nav-items-wrapper { display: flex; flex: 1 1 auto; padding: 0.25rem; align-items: stretch; }
+  .nav-logo { margin-right: 1rem; flex-shrink: 0; align-self: center; }
+  .nav-content img { display: block; width: 20px; }
+  .version_switcher_placeholder { margin-right: 1rem; }
+  .version_switcher_placeholder > select { height: 100%; }
+  .nav-content .search { display: flex; flex: 1 1 auto; border: 1px solid rgb(169, 169, 169); align-items: stretch; }
+  .nav-content .search input[type="search"] { border: 0px; padding-left: 24px; width: 100%; flex: 1 1 0%; }
+  .nav-content .search input[type="submit"] { height: 100%; box-shadow: none; border-width: 0px 0px 0px 1px; border-style: none none none solid; border-color: currentcolor currentcolor currentcolor rgb(169, 169, 169); border-image: none; cursor: pointer; margin-right: 0px; }
+  .nav-content .search svg { position: absolute; align-self: center; padding-left: 4px; }
+  .toggler__input { display: none; }
+  .toggler__label { width: 40px; cursor: pointer; display: flex; align-items: center; justify-content: center; padding: 8px; flex-shrink: 0; }
+  .toggler__label:hover, .toggler__label:focus { background-color: rgba(127, 127, 127, 0.5); }
+  .toggler__label > span { position: relative; flex: 0 0 auto; height: 2px; width: 100%; background: currentcolor; transition: 400ms; }
+  .toggler__label > span::before, .toggler__label > span::after { content: ""; height: 2px; width: 100%; background: inherit; position: absolute; left: 0px; top: -8px; }
+  .toggler__label > span::after { top: 8px; }
+  .toggler__input:checked ~ nav > .toggler__label span { transform: rotate(135deg); }
+  .toggler__input:checked ~ nav > .toggler__label span::before { transform: rotate(90deg); }
+  .toggler__input:checked ~ nav > .toggler__label span::before, .toggler__input:checked ~ nav > .toggler__label span::after { top: 0px; }
+  .toggler__input:checked:hover ~ nav > .toggler__label span { transform: rotate(315deg); }
+  .toggler__input:checked ~ .menu-wrapper { visibility: visible; left: 0px; }
+  .menu-wrapper { display: block; position: fixed; top: 0px; transition: left 400ms; left: -310px; width: 300px; height: 100%; background-color: rgb(238, 238, 238); color: rgb(68, 68, 68); box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px; overflow-y: auto; }
+  .menu-wrapper.open { visibility: visible; left: 0px; }
+  .menu { padding: 40px 10px 30px 20px; }
+  .menu-wrapper h3, .menu-wrapper h4 { margin-bottom: 0px; font-weight: normal; }
+  .menu-wrapper h4 { font-size: 1.3em; }
+  .menu-wrapper h3 { font-size: 1.4em; }
+  .menu-wrapper h3 + p, .menu-wrapper h4 + p { margin-top: 0.5rem; }
+  .menu a { font-size: smaller; text-decoration: none; }
+  .menu ul { list-style: none; line-height: 1.4; overflow-wrap: break-word; padding-left: 0px; }
+  .menu ul ul { margin-left: 20px; list-style: square; }
+  .menu ul li { margin-bottom: 0.5rem; }
+  .language_switcher_placeholder { margin-top: 2rem; }
+  .language_switcher_placeholder select { width: 100%; }
+  .document { position: relative; z-index: 0; }
+  .responsive-table__container { width: 100%; overflow-x: auto; }
+  .menu .theme-selector-label { margin-top: 0.5em; display: flex; width: 100%; }
+  .menu .theme-selector { flex: 1 1 auto; }
+}
+
+@media (min-width: 1024px) {
+  div.footer { margin-top: -2em; }
+}
+
+:root { --versionadded: var(--good-color); --versionchanged: var(--middle-color); --deprecated: var(--bad-color); --soft-deprecated: rgb(175, 0, 255); --versionadded-border: var(--good-border); --versionchanged-border: var(--middle-border); --deprecated-border: var(--bad-border); --soft-deprecated-border: rgb(175, 0, 255); }
+
+div.versionadded, div.versionchanged, div.deprecated, div.deprecated-removed { border-left: 3px solid; padding: 0px 1rem; }
+
+div.versionadded { border-left-color: var(--versionadded-border); }
+
+div.versionchanged { border-left-color: var(--versionchanged-border); }
+
+div.deprecated, div.deprecated-removed, div.versionremoved { border-left-color: var(--deprecated-border); }
+
+div.soft-deprecated { border-left-color: var(--soft-deprecated-border); }
+
+div.versionadded .versionmodified { color: var(--versionadded); }
+
+div.versionchanged .versionmodified { color: var(--versionchanged); }
+
+div.deprecated .versionmodified, div.deprecated-removed .versionmodified, div.versionremoved .versionmodified { color: var(--deprecated); }
+
+div.soft-deprecated .versionmodified { color: var(--soft-deprecated); }
+
+@media print {
+  div.mobile-nav { display: none; }
+}
+------MultipartBoundary--qjklQEHlqzSOZBNWOQ7VmICdZF3eCoIB0liR22LW1c----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://docs.python.org/3/_static/basic.css
+
+@charset "utf-8";
+
+div.clearer { clear: both; }
+
+div.section::after { display: block; content: ""; clear: left; }
+
+div.related { width: 100%; font-size: 90%; }
+
+div.related h3 { display: none; }
+
+div.related ul { margin: 0px; padding: 0px 0px 0px 10px; list-style: none; }
+
+div.related li { display: inline; }
+
+div.related li.right { float: right; margin-right: 5px; }
+
+div.sphinxsidebarwrapper { padding: 10px 5px 0px 10px; }
+
+div.sphinxsidebar { float: left; width: 230px; margin-left: -100%; font-size: 90%; overflow-wrap: break-word; }
+
+div.sphinxsidebar ul { list-style: none; }
+
+div.sphinxsidebar ul ul, div.sphinxsidebar ul.want-points { margin-left: 20px; list-style: square; }
+
+div.sphinxsidebar ul ul { margin-top: 0px; margin-bottom: 0px; }
+
+div.sphinxsidebar form { margin-top: 10px; }
+
+div.sphinxsidebar input { border: 1px solid rgb(152, 219, 204); font-family: sans-serif; font-size: 1em; }
+
+div.sphinxsidebar #searchbox form.search { overflow: hidden; }
+
+div.sphinxsidebar #searchbox input[type="text"] { float: left; width: 80%; padding: 0.25em; box-sizing: border-box; }
+
+div.sphinxsidebar #searchbox input[type="submit"] { float: left; width: 20%; border-left-width: medium; border-left-style: none; border-left-color: currentcolor; padding: 0.25em; box-sizing: border-box; }
+
+img { border: 0px; max-width: 100%; }
+
+ul.search { margin-top: 10px; }
+
+ul.search li { padding: 5px 0px; }
+
+ul.search li a { font-weight: bold; }
+
+ul.search li p.context { color: rgb(136, 136, 136); margin: 2px 0px 0px 30px; text-align: left; }
+
+ul.keywordmatches li.goodmatch a { font-weight: bold; }
+
+table.contentstable { width: 90%; margin-left: auto; margin-right: auto; }
+
+table.contentstable p.biglink { line-height: 150%; }
+
+a.biglink { font-size: 1.3em; }
+
+span.linkdescr { font-style: italic; padding-top: 5px; font-size: 90%; }
+
+table.indextable { width: 100%; }
+
+table.indextable td { text-align: left; vertical-align: top; }
+
+table.indextable ul { margin-top: 0px; margin-bottom: 0px; list-style-type: none; }
+
+table.indextable > tbody > tr > td > ul { padding-left: 0em; }
+
+table.indextable tr.pcap { height: 10px; }
+
+table.indextable tr.cap { margin-top: 10px; background-color: rgb(242, 242, 242); }
+
+img.toggler { margin-right: 3px; margin-top: 3px; cursor: pointer; }
+
+div.modindex-jumpbox { border-top: 1px solid rgb(221, 221, 221); border-bottom: 1px solid rgb(221, 221, 221); margin: 1em 0px; padding: 0.4em; }
+
+div.genindex-jumpbox { border-top: 1px solid rgb(221, 221, 221); border-bottom: 1px solid rgb(221, 221, 221); margin: 1em 0px; padding: 0.4em; }
+
+table.modindextable td { padding: 2px; border-collapse: collapse; }
+
+div.body { min-width: 360px; max-width: 800px; }
+
+div.body p, div.body dd, div.body li, div.body blockquote { hyphens: auto; }
+
+a.headerlink { visibility: hidden; }
+
+a:visited { color: rgb(85, 26, 139); }
+
+h1:hover > a.headerlink, h2:hover > a.headerlink, h3:hover > a.headerlink, h4:hover > a.headerlink, h5:hover > a.headerlink, h6:hover > a.headerlink, dt:hover > a.headerlink, caption:hover > a.headerlink, p.caption:hover > a.headerlink, div.code-block-caption:hover > a.headerlink { visibility: visible; }
+
+div.body p.caption { text-align: inherit; }
+
+div.body td { text-align: left; }
+
+.first { margin-top: 0px !important; }
+
+p.rubric { margin-top: 30px; font-weight: bold; }
+
+img.align-left, figure.align-left, .figure.align-left, object.align-left { clear: left; float: left; margin-right: 1em; }
+
+img.align-right, figure.align-right, .figure.align-right, object.align-right { clear: right; float: right; margin-left: 1em; }
+
+img.align-center, figure.align-center, .figure.align-center, object.align-center { display: block; margin-left: auto; margin-right: auto; }
+
+img.align-default, figure.align-default, .figure.align-default { display: block; margin-left: auto; margin-right: auto; }
+
+.align-left { text-align: left; }
+
+.align-center { text-align: center; }
+
+.align-default { text-align: center; }
+
+.align-right { text-align: right; }
+
+div.sidebar, aside.sidebar { margin: 0px 0px 0.5em 1em; border: 1px solid rgb(221, 221, 187); padding: 7px; background-color: rgb(255, 255, 238); width: 40%; float: right; clear: right; overflow-x: auto; }
+
+p.sidebar-title { font-weight: bold; }
+
+nav.contents, aside.topic, div.admonition, div.topic, blockquote { clear: left; }
+
+nav.contents, aside.topic, div.topic { border: 1px solid rgb(204, 204, 204); padding: 7px; margin: 10px 0px; }
+
+p.topic-title { font-size: 1.1em; font-weight: bold; margin-top: 10px; }
+
+div.admonition { margin-top: 10px; margin-bottom: 10px; padding: 7px; }
+
+div.admonition dt { font-weight: bold; }
+
+p.admonition-title { margin: 0px 10px 5px 0px; font-weight: bold; }
+
+div.body p.centered { text-align: center; margin-top: 25px; }
+
+div.sidebar > :last-child, aside.sidebar > :last-child, nav.contents > :last-child, aside.topic > :last-child, div.topic > :last-child, div.admonition > :last-child { margin-bottom: 0px; }
+
+div.sidebar::after, aside.sidebar::after, nav.contents::after, aside.topic::after, div.topic::after, div.admonition::after, blockquote::after { display: block; content: ""; clear: both; }
+
+table.docutils { margin-top: 10px; margin-bottom: 10px; border: 0px; border-collapse: collapse; }
+
+table.align-center { margin-left: auto; margin-right: auto; }
+
+table.align-default { margin-left: auto; margin-right: auto; }
+
+table caption span.caption-number { font-style: italic; }
+
+table caption span.caption-text { }
+
+table.docutils td, table.docutils th { padding: 1px 8px 1px 5px; border-width: 0px 0px 1px; border-style: none none solid; border-color: currentcolor currentcolor rgb(170, 170, 170); }
+
+th { text-align: left; padding-right: 5px; }
+
+table.citation { border-left: 1px solid gray; margin-left: 1px; }
+
+table.citation td { border-bottom-width: medium; border-bottom-style: none; border-bottom-color: currentcolor; }
+
+th > :first-child, td > :first-child { margin-top: 0px; }
+
+th > :last-child, td > :last-child { margin-bottom: 0px; }
+
+div.figure, figure { margin: 0.5em; padding: 0.5em; }
+
+div.figure p.caption, figcaption { padding: 0.3em; }
+
+div.figure p.caption span.caption-number, figcaption span.caption-number { font-style: italic; }
+
+div.figure p.caption span.caption-text, figcaption span.caption-text { }
+
+table.field-list td, table.field-list th { border: 0px !important; }
+
+.field-list ul { margin: 0px; padding-left: 1em; }
+
+.field-list p { margin: 0px; }
+
+.field-name { hyphens: manual; }
+
+table.hlist { margin: 1em 0px; }
+
+table.hlist td { vertical-align: top; }
+
+.sig { font-family: Consolas, Menlo, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace; }
+
+.sig-name, code.descname { background-color: transparent; font-weight: bold; }
+
+.sig-name { font-size: 1.1em; }
+
+code.descname { font-size: 1.2em; }
+
+.sig-prename, code.descclassname { background-color: transparent; }
+
+.optional { font-size: 1.3em; }
+
+.sig-paren { font-size: larger; }
+
+.sig-param.n { font-style: italic; }
+
+.sig-inline.c-texpr, .sig-inline.cpp-texpr { font-family: unset; }
+
+.sig.c .k, .sig.c .kt, .sig.cpp .k, .sig.cpp .kt { color: rgb(0, 51, 179); }
+
+.sig.c .m, .sig.cpp .m { color: rgb(23, 80, 235); }
+
+.sig.c .s, .sig.c .sc, .sig.cpp .s, .sig.cpp .sc { color: rgb(6, 125, 23); }
+
+ol.arabic { list-style: decimal; }
+
+ol.loweralpha { list-style: lower-alpha; }
+
+ol.upperalpha { list-style: upper-alpha; }
+
+ol.lowerroman { list-style: lower-roman; }
+
+ol.upperroman { list-style: upper-roman; }
+
+:not(li) > ol > li:first-child > :first-child, :not(li) > ul > li:first-child > :first-child { margin-top: 0px; }
+
+:not(li) > ol > li:last-child > :last-child, :not(li) > ul > li:last-child > :last-child { margin-bottom: 0px; }
+
+ol.simple ol p, ol.simple ul p, ul.simple ol p, ul.simple ul p { margin-top: 0px; }
+
+ol.simple > li:not(:first-child) > p, ul.simple > li:not(:first-child) > p { margin-top: 0px; }
+
+ol.simple p, ul.simple p { margin-bottom: 0px; }
+
+aside.footnote > span, div.citation > span { float: left; }
+
+aside.footnote > span:last-of-type, div.citation > span:last-of-type { padding-right: 0.5em; }
+
+aside.footnote > p { margin-left: 2em; }
+
+div.citation > p { margin-left: 4em; }
+
+aside.footnote > p:last-of-type, div.citation > p:last-of-type { margin-bottom: 0em; }
+
+aside.footnote > p:last-of-type::after, div.citation > p:last-of-type::after { content: ""; clear: both; }
+
+dl.field-list { display: grid; grid-template-columns: fit-content(30%) auto; }
+
+dl.field-list > dt { font-weight: bold; word-break: break-word; padding-left: 0.5em; padding-right: 5px; }
+
+dl.field-list > dd { padding-left: 0.5em; margin-top: 0em; margin-left: 0em; margin-bottom: 0em; }
+
+dl { margin-bottom: 15px; }
+
+dd > :first-child { margin-top: 0px; }
+
+dd ul, dd table { margin-bottom: 10px; }
+
+dd { margin-top: 3px; margin-bottom: 10px; margin-left: 30px; }
+
+.sig dd { margin-top: 0px; margin-bottom: 0px; }
+
+.sig dl { margin-top: 0px; margin-bottom: 0px; }
+
+dl > dd:last-child, dl > dd:last-child > :last-child { margin-bottom: 0px; }
+
+dt:target, span.highlighted { background-color: rgb(251, 229, 78); }
+
+rect.highlighted { fill: rgb(251, 229, 78); }
+
+dl.glossary dt { font-weight: bold; font-size: 1.1em; }
+
+.versionmodified { font-style: italic; }
+
+.system-message { background-color: rgb(255, 221, 170); padding: 5px; border: 3px solid red; }
+
+.footnote:target { background-color: rgb(255, 255, 170); }
+
+.line-block { display: block; margin-top: 1em; margin-bottom: 1em; }
+
+.line-block .line-block { margin-top: 0px; margin-bottom: 0px; margin-left: 1.5em; }
+
+.guilabel, .menuselection { font-family: sans-serif; }
+
+.accelerator { text-decoration: underline; }
+
+.classifier { font-style: oblique; }
+
+.classifier::before { font-style: normal; margin: 0px 0.5em; content: ":"; display: inline-block; }
+
+abbr, acronym { border-bottom: 1px dotted; cursor: help; }
+
+pre { overflow: auto hidden; }
+
+pre, div[class*="highlight-"] { clear: both; }
+
+span.pre { hyphens: none; white-space: nowrap; }
+
+div[class*="highlight-"] { margin: 1em 0px; }
+
+td.linenos pre { border: 0px; background-color: transparent; color: rgb(170, 170, 170); }
+
+table.highlighttable { display: block; }
+
+table.highlighttable tbody { display: block; }
+
+table.highlighttable tr { display: flex; }
+
+table.highlighttable td { margin: 0px; padding: 0px; }
+
+table.highlighttable td.linenos { padding-right: 0.5em; }
+
+table.highlighttable td.code { flex: 1 1 0%; overflow: hidden; }
+
+.highlight .hll { display: block; }
+
+div.highlight pre, table.highlighttable pre { margin: 0px; }
+
+div.code-block-caption + div { margin-top: 0px; }
+
+div.code-block-caption { margin-top: 1em; padding: 2px 5px; font-size: small; }
+
+div.code-block-caption code { background-color: transparent; }
+
+table.highlighttable td.linenos, span.linenos, div.highlight span.gp { user-select: none; }
+
+div.code-block-caption span.caption-number { padding: 0.1em 0.3em; font-style: italic; }
+
+div.code-block-caption span.caption-text { }
+
+div.literal-block-wrapper { margin: 1em 0px; }
+
+code.xref, a code { background-color: transparent; font-weight: bold; }
+
+h1 code, h2 code, h3 code, h4 code, h5 code, h6 code { background-color: transparent; }
+
+.viewcode-link { float: right; }
+
+.viewcode-back { float: right; font-family: sans-serif; }
+
+div.viewcode-block:target { margin: -1px -10px; padding: 0px 10px; }
+
+img.math { vertical-align: middle; }
+
+div.body div.math p { text-align: center; }
+
+span.eqno { float: right; }
+
+span.eqno a.headerlink { position: absolute; z-index: 1; }
+
+div.math:hover a.headerlink { visibility: visible; }
+
+@media print {
+  div.document, div.documentwrapper, div.bodywrapper { width: 100%; margin: 0px !important; }
+  div.sphinxsidebar, div.related, div.footer, #top-link { display: none; }
+}
+------MultipartBoundary--qjklQEHlqzSOZBNWOQ7VmICdZF3eCoIB0liR22LW1c----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://docs.python.org/3/_static/classic.css?v=234b1a7c
+
+@charset "utf-8";
+
+@import url("basic.css");
+
+html { background-color: rgb(255, 255, 255); }
+
+body { font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; font-size: 100%; background-color: white; color: rgb(0, 0, 0); margin: 0px; padding: 0px; }
+
+div.document { display: flex; background-color: white; }
+
+div.documentwrapper { float: left; width: 100%; }
+
+div.bodywrapper { margin: 0px 0px 0px 230px; }
+
+div.body { background-color: white; color: rgb(34, 34, 34); padding: 0px 20px 30px; }
+
+div.footer { color: rgb(85, 85, 85); width: 100%; padding: 9px 0px; text-align: center; font-size: 75%; }
+
+div.footer a { color: rgb(85, 85, 85); text-decoration: underline; }
+
+div.related { background-color: white; line-height: 30px; color: rgb(102, 102, 102); }
+
+div.related a { color: rgb(68, 68, 68); }
+
+div.sphinxsidebar { }
+
+div.sphinxsidebar h3 { font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; color: rgb(68, 68, 68); font-size: 1.4em; font-weight: normal; margin: 0px; padding: 0px; }
+
+div.sphinxsidebar h3 a { color: rgb(68, 68, 68); }
+
+div.sphinxsidebar h4 { font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; color: rgb(68, 68, 68); font-size: 1.3em; font-weight: normal; margin: 5px 0px 0px; padding: 0px; }
+
+div.sphinxsidebar p { color: rgb(68, 68, 68); }
+
+div.sphinxsidebar p.topless { margin: 5px 10px 10px; }
+
+div.sphinxsidebar ul { margin: 10px; padding: 0px; color: rgb(68, 68, 68); }
+
+div.sphinxsidebar a { color: rgb(68, 68, 68); }
+
+div.sphinxsidebar input { border: 1px solid rgb(68, 68, 68); font-family: sans-serif; font-size: 1em; }
+
+#sidebarbutton { height: 100%; background-color: rgb(204, 204, 204); margin-left: 0px; color: rgb(255, 255, 255); border-left: 1px solid white; font-size: 1.2em; cursor: pointer; padding-top: 1px; float: right; display: table; }
+
+#sidebarbutton:hover { background-color: white; }
+
+#sidebarbutton span { display: table-cell; vertical-align: middle; }
+
+div.sphinxsidebarwrapper { float: left; margin-right: 0px; }
+
+a { color: rgb(0, 144, 192); text-decoration: none; }
+
+a:visited { color: rgb(0, 96, 143); text-decoration: none; }
+
+a:hover { text-decoration: underline; }
+
+div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6 { font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; background-color: white; font-weight: normal; color: rgb(26, 26, 26); border-bottom: 1px solid rgb(204, 204, 204); margin: 20px -20px 10px; padding: 3px 0px 3px 10px; }
+
+div.body h1 { margin-top: 0px; font-size: 200%; }
+
+div.body h2 { font-size: 160%; }
+
+div.body h3 { font-size: 140%; }
+
+div.body h4 { font-size: 120%; }
+
+div.body h5 { font-size: 110%; }
+
+div.body h6 { font-size: 100%; }
+
+a.headerlink { color: rgb(170, 170, 170); font-size: 0.8em; padding: 0px 4px; text-decoration: none; }
+
+a.headerlink:hover { background-color: rgb(170, 170, 170); color: white; }
+
+div.body p, div.body dd, div.body li, div.body blockquote { text-align: justify; line-height: 130%; }
+
+div.admonition p.admonition-title + p { display: inline; }
+
+div.admonition p { margin-bottom: 5px; }
+
+div.admonition pre { margin-bottom: 5px; }
+
+div.admonition ul, div.admonition ol { margin-bottom: 5px; }
+
+div.note { background-color: rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); }
+
+div.seealso { background-color: rgb(255, 255, 204); border: 1px solid rgb(255, 255, 102); }
+
+nav.contents, aside.topic, div.topic { background-color: rgb(238, 238, 238); }
+
+div.warning { background-color: rgb(255, 228, 228); border: 1px solid rgb(255, 102, 102); }
+
+p.admonition-title { display: inline; }
+
+p.admonition-title::after { content: ":"; }
+
+pre { padding: 5px; background-color: rgb(238, 255, 204); color: rgb(51, 51, 51); line-height: 120%; border-width: 1px medium; border-style: solid none; border-color: rgb(170, 204, 153) currentcolor; border-image: none; }
+
+code { background-color: rgb(236, 240, 243); padding: 0px 1px; font-size: 0.95em; }
+
+th, dl.field-list > dt { background-color: rgb(238, 221, 238); }
+
+.warning code { background: rgb(239, 194, 194); }
+
+.note code { background: rgb(214, 214, 214); }
+
+.viewcode-back { font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; }
+
+div.viewcode-block:target { background-color: rgb(244, 222, 191); border-top: 1px solid rgb(170, 204, 153); border-bottom: 1px solid rgb(170, 204, 153); }
+
+div.code-block-caption { color: rgb(239, 239, 239); background-color: rgb(28, 78, 99); }
+------MultipartBoundary--qjklQEHlqzSOZBNWOQ7VmICdZF3eCoIB0liR22LW1c----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://docs.python.org/3/_static/pygments.css?v=b86133f3
+
+@charset "utf-8";
+
+pre { line-height: 125%; }
+
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+
+td.linenos .special { color: rgb(0, 0, 0); background-color: rgb(255, 255, 192); padding-left: 5px; padding-right: 5px; }
+
+span.linenos.special { color: rgb(0, 0, 0); background-color: rgb(255, 255, 192); padding-left: 5px; padding-right: 5px; }
+
+.highlight .hll { background-color: rgb(255, 255, 204); }
+
+.highlight { background: rgb(248, 248, 248); }
+
+.highlight .c { color: rgb(61, 123, 123); font-style: italic; }
+
+.highlight .err { border: 1px solid rgb(255, 0, 0); }
+
+.highlight .k { color: rgb(0, 128, 0); font-weight: bold; }
+
+.highlight .o { color: rgb(102, 102, 102); }
+
+.highlight .ch { color: rgb(61, 123, 123); font-style: italic; }
+
+.highlight .cm { color: rgb(61, 123, 123); font-style: italic; }
+
+.highlight .cp { color: rgb(156, 101, 0); }
+
+.highlight .cpf { color: rgb(61, 123, 123); font-style: italic; }
+
+.highlight .c1 { color: rgb(61, 123, 123); font-style: italic; }
+
+.highlight .cs { color: rgb(61, 123, 123); font-style: italic; }
+
+.highlight .gd { color: rgb(160, 0, 0); }
+
+.highlight .ge { font-style: italic; }
+
+.highlight .ges { font-weight: bold; font-style: italic; }
+
+.highlight .gr { color: rgb(228, 0, 0); }
+
+.highlight .gh { color: rgb(0, 0, 128); font-weight: bold; }
+
+.highlight .gi { color: rgb(0, 132, 0); }
+
+.highlight .go { color: rgb(113, 113, 113); }
+
+.highlight .gp { color: rgb(0, 0, 128); font-weight: bold; }
+
+.highlight .gs { font-weight: bold; }
+
+.highlight .gu { color: rgb(128, 0, 128); font-weight: bold; }
+
+.highlight .gt { color: rgb(0, 68, 221); }
+
+.highlight .kc { color: rgb(0, 128, 0); font-weight: bold; }
+
+.highlight .kd { color: rgb(0, 128, 0); font-weight: bold; }
+
+.highlight .kn { color: rgb(0, 128, 0); font-weight: bold; }
+
+.highlight .kp { color: rgb(0, 128, 0); }
+
+.highlight .kr { color: rgb(0, 128, 0); font-weight: bold; }
+
+.highlight .kt { color: rgb(176, 0, 64); }
+
+.highlight .m { color: rgb(102, 102, 102); }
+
+.highlight .s { color: rgb(186, 33, 33); }
+
+.highlight .na { color: rgb(104, 120, 34); }
+
+.highlight .nb { color: rgb(0, 128, 0); }
+
+.highlight .nc { color: rgb(0, 0, 255); font-weight: bold; }
+
+.highlight .no { color: rgb(136, 0, 0); }
+
+.highlight .nd { color: rgb(170, 34, 255); }
+
+.highlight .ni { color: rgb(113, 113, 113); font-weight: bold; }
+
+.highlight .ne { color: rgb(203, 63, 56); font-weight: bold; }
+
+.highlight .nf { color: rgb(0, 0, 255); }
+
+.highlight .nl { color: rgb(118, 118, 0); }
+
+.highlight .nn { color: rgb(0, 0, 255); font-weight: bold; }
+
+.highlight .nt { color: rgb(0, 128, 0); font-weight: bold; }
+
+.highlight .nv { color: rgb(25, 23, 124); }
+
+.highlight .ow { color: rgb(170, 34, 255); font-weight: bold; }
+
+.highlight .w { color: rgb(187, 187, 187); }
+
+.highlight .mb { color: rgb(102, 102, 102); }
+
+.highlight .mf { color: rgb(102, 102, 102); }
+
+.highlight .mh { color: rgb(102, 102, 102); }
+
+.highlight .mi { color: rgb(102, 102, 102); }
+
+.highlight .mo { color: rgb(102, 102, 102); }
+
+.highlight .sa { color: rgb(186, 33, 33); }
+
+.highlight .sb { color: rgb(186, 33, 33); }
+
+.highlight .sc { color: rgb(186, 33, 33); }
+
+.highlight .dl { color: rgb(186, 33, 33); }
+
+.highlight .sd { color: rgb(186, 33, 33); font-style: italic; }
+
+.highlight .s2 { color: rgb(186, 33, 33); }
+
+.highlight .se { color: rgb(170, 93, 31); font-weight: bold; }
+
+.highlight .sh { color: rgb(186, 33, 33); }
+
+.highlight .si { color: rgb(164, 90, 119); font-weight: bold; }
+
+.highlight .sx { color: rgb(0, 128, 0); }
+
+.highlight .sr { color: rgb(164, 90, 119); }
+
+.highlight .s1 { color: rgb(186, 33, 33); }
+
+.highlight .ss { color: rgb(25, 23, 124); }
+
+.highlight .bp { color: rgb(0, 128, 0); }
+
+.highlight .fm { color: rgb(0, 0, 255); }
+
+.highlight .vc { color: rgb(25, 23, 124); }
+
+.highlight .vg { color: rgb(25, 23, 124); }
+
+.highlight .vi { color: rgb(25, 23, 124); }
+
+.highlight .vm { color: rgb(25, 23, 124); }
+
+.highlight .il { color: rgb(102, 102, 102); }
+------MultipartBoundary--qjklQEHlqzSOZBNWOQ7VmICdZF3eCoIB0liR22LW1c----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-f06229dc-0e43-45d8-aa70-7e0e2c23b8a9@mhtml.blink
+
+@charset "utf-8";
+
+@media only screen {
+  table.full-width-table { width: 100%; }
+}
+------MultipartBoundary--qjklQEHlqzSOZBNWOQ7VmICdZF3eCoIB0liR22LW1c------
